@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dati di Latitudine, Longitudine e Posizioni</title>
+</head>
+
+<body>
+    <div id="coordinateContainer"></div>
+    <script>
+        // Dati di accesso
+        const email = "greengengroupsrl@gmail.com";
+        const password = "Greengengroup!";
+        const loginUrl = "https://almecdiag.net:9891/login";
+        const positionsUrl = "https://almecdiag.net:9891/export/positions";
+        const machineInfoUrl = "https://almecdiag.net:9891/export/machineInfo";
+        const c_machine = "862493059018931"; // Sostituisci con l'IMEI reale
+
+        // Ottieni la data corrente meno 1 ora e la data di fine meno 5 ore
+        const startDate = new Date();
+        startDate.setHours(startDate.getHours() - 0);
+
+        const endDate = new Date();
+        startDate.setHours(startDate.getHours() - 500);
+
+        // Formatta le date in formato ISO UTC
+        const dt_from = startDate.toISOString();
+        const dt_to = endDate.toISOString();
+
+        let authToken; // Dichiarazione della variabile authToken
+        let latitudine, longitudine; // Dichiarazione delle variabili latitudine e longitudine
+
+        // Funzione per calcolare la distanza tra due coordinate geografiche
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+            const R = 6371e3; // Raggio della Terra in metri
+            const φ1 = lat1 * (Math.PI / 180);
+            const φ2 = lat2 * (Math.PI / 180);
+            const Δφ = (lat2 - lat1) * (Math.PI / 180);
+            const Δλ = (lon2 - lon1) * (Math.PI / 180);
+
+            const a = Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+                Math.cos(φ1) * Math.cos(φ2) *
+                Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
+
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+            const distance = R * c;
+            return distance;
+        }
+
+        // Effettua il login e ottieni il token
+        const loginOptions = {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                email: email,
+                password: password,
+            }),
+        };
+
+        fetch(loginUrl, loginOptions)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                authToken = data.token; // Assegna il token alla variabile authToken
+
+                // Effettua una seconda chiamata per ottenere i dati di latitudine e longitudine
+                const positionsOptions = {
+                    method: "GET",
+                    headers: {
+                        "Authorization": `Bearer ${authToken}`,
+                    },
+                };
+
+                // Aggiungi i parametri alla URL della richiesta
+                const positionsUrlWithParams = `${positionsUrl}?c_machine=${c_machine}&dt_from=${dt_from}&dt_to=${dt_to}`;
+
+                return fetch(positionsUrlWithParams, positionsOptions);
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(positionsData => {
+                // Log della risposta completa della posizione nella console
+                console.log("Risposta completa della posizione:", positionsData);
+
+                // Verifica se ci sono dati nella risposta positionsData
+                if (positionsData && positionsData.data && positionsData.data.length > 0) {
+                    // Prendi le coordinate della prima posizione dall'array
+                    const latitudinePrimaPosizione = positionsData.data[0].lat;
+                    const longitudinePrimaPosizione = positionsData.data[0].lng;
+
+                    // Verifica ogni posizione nella risposta
+                    const inCantiere = positionsData.data.some(pos => {
+
+                        const distance = calculateDistance(
+                            latitudinePrimaPosizione, longitudinePrimaPosizione,
+                            pos.lat, pos.lng
+                        );
+
+                        // Verifica se la distanza è inferiore a 25 metri
+                        return distance <= 25;
+                    });
+
+                    // Crea un paragrafo per indicare se le posizioni sono in cantiere o fuori cantiere
+                    const cantiereParagraph = document.createElement('p');
+
+                    // Aggiungi il paragrafo al documento HTML
+                    document.body.appendChild(cantiereParagraph);
+
+                    // Crea un titolo per la sezione delle posizioni
+                    const posizioniTitle = document.createElement('h2');
+                    posizioniTitle.textContent = "Posizioni:";
+
+                    // Aggiungi il titolo al documento HTML
+                    document.body.appendChild(posizioniTitle);
+
+                    // Crea una lista per visualizzare le informazioni delle posizioni
+                    const posizioniList = document.createElement('ul');
+
+                    // Aggiungi la lista al documento HTML
+                    document.body.appendChild(posizioniList);
+
+
+                    let matchCount = 0;
+                    let nonMatchCount = 0;
+                    let idcoor; // Declare idcoor outside the loop
+                    const resultParagraph = document.createElement('p');
+                    resultParagraph.textContent += "\n ";
+                    let i = 0;
+                    while (document.getElementById("coordinatahtml" + i)) {
+                        let matchCount = 0;
+                        let nonMatchCount = 0;
+                        let idcoor;
+
+                        // Compare each position with the coordinates from the file
+                        positionsData.data.forEach((pos, index) => {
+                            var coordinataname = "coordinatahtml" + i;
+                            const currentElement = document.getElementById(coordinataname);
+
+                            if (currentElement) {
+                                const coordinata0Lat = currentElement.dataset.lat;
+                                const coordinata0Lng = currentElement.dataset.lng;
+                                idcoor = currentElement.dataset.idcoor;
+
+                                if (coordinata0Lat && coordinata0Lng) {
+                                    const distance = calculateDistance(
+                                        coordinata0Lat, coordinata0Lng,
+                                        pos.lat, pos.lng
+                                    );
+
+                                    // Check if the distance is below 25 meters
+                                    const isMatch = distance <= 25;
+
+                                    // Increment the counters based on the result
+                                    if (isMatch) {
+                                        matchCount++;
+                                    } else {
+                                        nonMatchCount++;
+                                    }
+                                }
+                            } else {
+                                console.error(`Element with id ${coordinataname} not found.`);
+                            }
+                        });
+
+                        // Logic to determine if the position is in or out of the construction site
+                        const resultParagraph = document.createElement('p');
+                        resultParagraph.textContent = "\n";
+
+                        function updateCoordinateStatus(idcoor, status) {
+                            localStorage.setItem(`coordinateStatus_${idcoor}`, status);
+                        }
+
+                        if (matchCount > nonMatchCount) {
+                            resultParagraph.textContent += "In cantiere, ";
+                            resultParagraph.textContent += idcoor;
+
+                            // Update coordinate status in persistent storage
+                            updateCoordinateStatus(idcoor, "In cantiere,");
+                        } else if (matchCount < nonMatchCount) {
+                            resultParagraph.textContent += "Fuori cantiere, ";
+                            resultParagraph.textContent += idcoor;
+
+                            // Update coordinate status in persistent storage
+                            updateCoordinateStatus(idcoor, "Fuori cantiere,");
+                        }
+
+                        resultParagraph.textContent += "\n";
+                        document.body.appendChild(resultParagraph);
+
+                        function triggerAddNewRow(idcoor) {
+                            // Broadcast a custom event
+                            document.dispatchEvent(new CustomEvent('addNewRow', {
+                                detail: {
+                                    idcoor: idcoor
+                                }
+                            }));
+                        }
+                        i++;
+                    }
+                    // Crea un paragrafo per visualizzare l'arco di tempo delle posizioni
+                    const arcoTempoParagraph = document.createElement('p');
+
+                    // Ottieni la data della prima posizione e dell'ultima posizione
+                    const primaPosizione = new Date(positionsData.data[0].date);
+                    const ultimaPosizione = new Date(positionsData.data[positionsData.data.length - 1].date);
+
+                    // Formatta le date in una stringa leggibile
+                    const formatoData = {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                        hour: 'numeric',
+                        minute: 'numeric',
+                        second: 'numeric',
+                        timeZoneName: 'short'
+                    };
+                    const dataInizio = primaPosizione.toLocaleDateString('it-IT', formatoData);
+                    const dataFine = ultimaPosizione.toLocaleDateString('it-IT', formatoData);
+
+                    // Aggiungi il testo al paragrafo
+                    arcoTempoParagraph.textContent = `Arco di tempo delle posizioni: da ${dataInizio} a ${dataFine}`;
+
+                    // Aggiungi il paragrafo al documento HTML
+                    document.body.appendChild(arcoTempoParagraph);
+
+                    // Effettua una terza chiamata per ottenere i dati anagrafici della macchina
+                    const machineInfoOptions = {
+                        method: "GET",
+                        headers: {
+                            "Authorization": `Bearer ${authToken}`,
+                        },
+                    };
+
+                    // Aggiungi il parametro alla URL della richiesta
+                    const machineInfoUrlWithParams = `${machineInfoUrl}?c_machine=${c_machine}`;
+
+                    return fetch(machineInfoUrlWithParams, machineInfoOptions);
+                } else {
+                    console.error("Nessun dato di posizione disponibile nella risposta dell'API.");
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(machineInfoData => {
+                // Log dei dati anagrafici della macchina
+                console.log("Dati anagrafici della macchina:", machineInfoData);
+
+                // ... (Puoi aggiungere qui ulteriori logiche o visualizzazioni in base ai tuoi requisiti)
+
+            })
+            .catch(error => {
+                console.error("Errore durante la richiesta:", error);
+            });
+        // Funzione per leggere il file cantieri.txt
+        function leggiFile() {
+            // Creazione di un oggetto XMLHttpRequest
+            var xhttp = new XMLHttpRequest();
+
+            // Definizione della funzione di gestione degli eventi per il completamento della richiesta
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    // Chiamata alla funzione per elaborare il contenuto del file
+                    elaboraContenuto(this.responseText);
+
+                    // Update local storage with the current timestamp
+                    const timestamp = new Date().getTime();
+                    localStorage.setItem('cantieriFileTimestamp', timestamp.toString());
+                }
+            };
+
+            // Aggiunta di un parametro casuale per evitare la cache
+            var randomParam = Math.random().toString(36).substring(7);
+            var url = "cantieri.txt" + "?nocache=" + randomParam;
+
+            // Apertura della richiesta GET al file cantieri.txt con il parametro casuale
+            xhttp.open("GET", url, true);
+
+            // Invio della richiesta
+            xhttp.send();
+        }
+
+        function elaboraContenuto(contenuto) {
+            // Divisione del contenuto del file in righe
+            var righe = contenuto.split("\n");
+
+            // Selezione dell'elemento HTML in cui inserire le coordinate
+            var container = document.getElementById("coordinateContainer");
+
+            // Iterazione sulle righe e creazione dei paragrafi
+            for (var i = 0; i < righe.length; i++) {
+                // Creazione di un paragrafo per ogni coppia di coordinate
+                var paragrafo = document.createElement("p");
+
+                // Assegnazione dell'id al paragrafo
+                paragrafo.id = "coordinatahtml" + i;
+
+                // Aggiunta del testo al paragrafo
+                paragrafo.textContent = righe[i];
+
+                // Aggiunta dei data attributes lat, lng, and id al paragrafo
+                var coordinate = righe[i].split(",");
+                if (coordinate.length === 3) {
+                    paragrafo.dataset.lat = coordinate[0].trim();
+                    paragrafo.dataset.lng = coordinate[1].trim();
+                    paragrafo.dataset.idcoor = coordinate[2].trim();
+                }
+
+                // Aggiunta del paragrafo al container
+                container.appendChild(paragrafo);
+            }
+        }
+
+
+        // Chiamata alla funzione per leggere il file all'avvio della pagina
+        leggiFile();
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,4864 @@
+.c110,
+.c50,
+.c65,
+.c90,
+.cpal,
+.ccdl,
+.cfascicolo,
+.cdich30,
+.crcee,
+.cpreanalisi,
+.cupsa,
+.ctecnico,
+.cmsr,
+.cguarino,
+.crcee_br, 
+.crcee_le,
+.super,
+.matarial_report {
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 800px;
+}
+
+
+/*===========================
+      c-110
+===========================*/
+
+.c110>.container0>.committente {
+    position: absolute;
+    top: 15.5rem;
+    left: 19rem;
+}
+
+.c110>.container0>.cf {
+    position: absolute;
+    top: 17.9rem;
+    left: 4.2rem;
+}
+
+.c110>.container0>.comuneNascita {
+    position: absolute;
+    top: 18rem;
+    left: 24rem;
+}
+
+.c110>.container0>.provinciaNascita {
+    position: absolute;
+    top: 18rem;
+    left: 36.2rem;
+}
+
+.c110>.container0>.dataNascita {
+    position: absolute;
+    top: 18rem;
+    left: 39.8rem;
+}
+
+.c110>.container0>.comuneResid {
+    position: absolute;
+    top: 20.4rem;
+    left: 12rem;
+}
+
+.c110>.container0>.provinciaResid {
+    position: absolute;
+    top: 20.4rem;
+    left: 32.5rem;
+}
+
+.c110>.container0>.viaResid {
+    position: absolute;
+    top: 22.8rem;
+    left: 4.4rem;
+}
+
+.c110>.container0>.numResid {
+    position: absolute;
+    top: 22.8rem;
+    left: 32rem;
+}
+
+.c110>.container0>.comuneImm {
+    position: absolute;
+    top: 27.7rem;
+    left: 4rem;
+}
+
+.c110>.container0>.provinciaImm {
+    position: absolute;
+    top: 27.7rem;
+    left: 27.9rem;
+}
+
+.c110>.container0>.viaImm {
+    position: absolute;
+    top: 30.2rem;
+    left: 4rem;
+}
+
+.c110>.container0>.numImm {
+    position: absolute;
+    top: 30.2rem;
+    left: 25.5rem;
+}
+
+.c110>.container0>.comuneImm1 {
+    position: absolute;
+    top: 32.5rem;
+    left: 4rem;
+}
+
+.c110>.container0>.foglioImm {
+    position: absolute;
+    top: 32.5rem;
+    left: 28.5rem;
+}
+
+.c110>.container0>.partImm {
+    position: absolute;
+    top: 32.5rem;
+    left: 34.5rem;
+}
+
+.c110>.container0>.subImm {
+    position: absolute;
+    top: 32.5rem;
+    left: 40rem;
+}
+
+.c110>.container1>.comuneImm {
+    position: absolute;
+    top: 40rem;
+    left: 14.8rem;
+}
+
+.c110>.container1>.provinciaImm {
+    position: absolute;
+    top: 40rem;
+    left: 33.2rem;
+}
+
+.c110>.container1>.viaImm {
+    position: absolute;
+    top: 41.5rem;
+    left: 4rem;
+}
+
+.c110>.container1>.numImm {
+    position: absolute;
+    top: 41.5rem;
+    left: 25rem;
+}
+
+.c110>.container1>.foglioImm {
+    position: absolute;
+    top: 41.5rem;
+    left: 34.8rem;
+}
+
+.c110>.container1>.partImm {
+    position: absolute;
+    top: 41.5rem;
+    left: 39.8rem;
+}
+
+.c110>.container1>.subImm {
+    position: absolute;
+    top: 41.5rem;
+    left: 44rem;
+}
+
+.c110>.container8>.committente {
+    position: absolute;
+    top: 8.3rem;
+    left: 15rem;
+}
+
+.c110>.container8>.comuneNascita {
+    position: absolute;
+    top: 11rem;
+    left: 10.6rem;
+}
+
+.c110>.container8>.provinciaNascita {
+    position: absolute;
+    top: 11rem;
+    left: 29.6rem;
+}
+
+.c110>.container8>.dataNascita {
+    position: absolute;
+    top: 11rem;
+    left: 38rem;
+}
+
+.c110>.container8>.comuneResid {
+    position: absolute;
+    top: 14rem;
+    left: 12rem;
+}
+
+.c110>.container8>.provinciaResid {
+    position: absolute;
+    top: 14rem;
+    left: 42rem;
+}
+
+.c110>.container8>.viaResid {
+    position: absolute;
+    top: 16.5rem;
+    left: 12rem;
+}
+
+.c110>.container8>.numResid {
+    position: absolute;
+    top: 16.5rem;
+    left: 35rem;
+}
+
+.c110>.container8>.capResid {
+    position: absolute;
+    top: 16.5rem;
+    left: 41rem;
+}
+
+.c110>.container8>.cf {
+    position: absolute;
+    top: 18.8rem;
+    left: 7rem;
+}
+
+.c110>.container8>.documento {
+    position: absolute;
+    top: 21.1rem;
+    left: 16rem;
+}
+
+.c110>.container8>.numDoc {
+    position: absolute;
+    top: 21.1rem;
+    left: 33rem;
+}
+
+.c110>.container8>.rilascioDoc {
+    position: absolute;
+    top: 23.5rem;
+    left: 10.6rem;
+}
+
+.c110>.container8>.dataDoc {
+    position: absolute;
+    top: 23.5rem;
+    left: 37.4rem;
+}
+
+.c110>.container8>.comuneImm {
+    position: absolute;
+    top: 28.2rem;
+    left: 4.7rem;
+}
+
+.c110>.container8>.viaImm {
+    position: absolute;
+    top: 28.2rem;
+    left: 22rem;
+}
+
+.c110>.container8>.numImm {
+    position: absolute;
+    top: 28.2rem;
+    left: 43.5rem;
+}
+
+.c110>.container9>.committente {
+    position: absolute;
+    top: 18.1rem;
+    left: 13rem;
+}
+
+.c110>.container9>.comuneNascita {
+    position: absolute;
+    top: 18.1rem;
+    left: 29rem;
+}
+
+.c110>.container9>.dataNascita {
+    position: absolute;
+    top: 19.4rem;
+    left: 5.7rem;
+}
+
+.c110>.container9>.comuneResid {
+    position: absolute;
+    top: 19.3rem;
+    left: 16rem;
+}
+
+.c110>.container9>.viaResid {
+    position: absolute;
+    top: 19.3rem;
+    left: 28rem;
+}
+
+.c110>.container9>.cf {
+    position: absolute;
+    top: 20.5rem;
+    left: 7rem;
+}
+
+.c110>.container9>.comuneImm {
+    position: absolute;
+    top: 20.5rem;
+    left: 32rem;
+}
+
+.c110>.container9>.viaImm {
+    position: absolute;
+    top: 21.7rem;
+    left: 8rem;
+}
+
+.c110>.container9>.foglioImm {
+    position: absolute;
+    top: 21.7rem;
+    left: 40rem;
+}
+
+.c110>.container9>.partImm {
+    position: absolute;
+    font-size: 12;
+    top: 22.9rem;
+    left: 9.5rem;
+}
+
+.c110>.container9>.subImm {
+    position: absolute;
+    top: 22.9rem;
+    left: 13.7rem;
+}
+
+.c110>.container9>.numImm {
+    position: absolute;
+    top: 21.7rem;
+    left: 23rem;
+}
+
+.c110>.container10>.committente {
+    position: absolute;
+    top: 6.7rem;
+    left: 10rem;
+}
+
+.c110>.container10>.comuneNascita {
+    position: absolute;
+    top: 6.7rem;
+    left: 30rem;
+}
+
+.c110>.container10>.provinciaNascita {
+    position: absolute;
+    top: 8.3rem;
+    left: 5.6rem;
+}
+
+.c110>.container10>.dataNascita {
+    position: absolute;
+    top: 8.3rem;
+    left: 11rem;
+}
+
+.c110>.container10>.cf {
+    position: absolute;
+    top: 8.3rem;
+    left: 26rem;
+}
+
+.c110>.container10>.comuneResid {
+    position: absolute;
+    top: 9.9rem;
+    left: 3rem;
+}
+
+.c110>.container10>.capResid {
+    position: absolute;
+    top: 9.9rem;
+    left: 19rem;
+}
+
+.c110>.container10>.provinciaResid {
+    position: absolute;
+    top: 9.9rem;
+    left: 25rem;
+}
+
+.c110>.container10>.viaResid {
+    position: absolute;
+    top: 9.9rem;
+    left: 29rem;
+}
+
+.c110>.container10>.numResid {
+    position: absolute;
+    top: 11.5rem;
+    left: 4.5rem;
+}
+
+.c110>.container10>.capResid1 {
+    position: absolute;
+    top: 13.2rem;
+    left: 43.5rem;
+}
+
+.c110>.container10>.comuneImm {
+    position: absolute;
+    top: 13.21rem;
+    left: 25.8rem;
+}
+
+.c110>.container10>.capImm {
+    position: absolute;
+    top: 13.21rem;
+    left: 43.8rem;
+}
+
+.c110>.container10>.provinciaImm {
+    position: absolute;
+    top: 14.9rem;
+    left: 5.5rem;
+}
+
+.c110>.container10>.viaImm {
+    position: absolute;
+    top: 14.9rem;
+    left: 9.5rem;
+}
+
+.c110>.container10>.numImm {
+    position: absolute;
+    top: 14.9rem;
+    left: 27.5rem;
+}
+
+.c110>.container10>.comuneImm1 {
+    position: absolute;
+    top: 23.9rem;
+    left: 29rem;
+}
+
+.c110>.container10>.provinciaImm1 {
+    position: absolute;
+    top: 23.9rem;
+    left: 45rem;
+}
+
+.c110>.container10>.viaImm1 {
+    position: absolute;
+    top: 25.5rem;
+    left: 8rem;
+}
+
+.c110>.container10>.numImm1 {
+    position: absolute;
+    top: 25.5rem;
+    left: 28.3rem;
+}
+
+.c110>.container10>.comuneImm2 {
+    position: absolute;
+    top: 27.2rem;
+    left: 7rem;
+}
+
+.c110>.container10>.foglioImm {
+    position: absolute;
+    top: 27.2rem;
+    left: 22.6rem;
+}
+
+.c110>.container10>.partImm {
+    position: absolute;
+    top: 27.2rem;
+    left: 28.4rem;
+}
+
+.c110>.container10>.subImm {
+    position: absolute;
+    top: 27.2rem;
+    left: 34.7rem;
+}
+
+.c110>.container10>.catCatasto {
+    position: absolute;
+    top: 27.2rem;
+    left: 44.2rem;
+}
+
+.c110>.container10>.committente1 {
+    position: absolute;
+    top: 28.9rem;
+    left: 28.6rem;
+}
+
+.c110>.container10>.comuneNascita1 {
+    position: absolute;
+    top: 30.4rem;
+    left: 6.2rem;
+}
+
+.c110>.container10>.provinciaNascita1 {
+    position: absolute;
+    top: 30.4rem;
+    left: 20.3rem;
+}
+
+.c110>.container10>.dataNascita1 {
+    position: absolute;
+    top: 30.3rem;
+    left: 23.3rem;
+    font-size: 13;
+}
+
+.c110>.container10>.cf1 {
+    position: absolute;
+    top: 30.4rem;
+    left: 33.3rem;
+}
+
+.c110>.container11>.committente {
+    position: absolute;
+    top: 40.4rem;
+    left: 35.4rem;
+}
+
+.c110>.container11>.comuneNascita {
+    position: absolute;
+    top: 41.6rem;
+    left: 16rem;
+}
+
+.c110>.container11>.dataNascita {
+    position: absolute;
+    top: 41.6rem;
+    left: 32.5rem;
+}
+
+.c110>.container11>.comuneResid {
+    position: absolute;
+    top: 42.9rem;
+    left: 8.5rem;
+}
+
+.c110>.container11>.cf {
+    position: absolute;
+    top: 42.9rem;
+    left: 28.5rem;
+}
+
+.c110>.container16>.committente {
+    position: absolute;
+    top: 19.6rem;
+    left: 15rem;
+}
+
+.c110>.container16>.comuneNascita {
+    position: absolute;
+    top: 19.6rem;
+    left: 34rem;
+}
+
+.c110>.container16>.dataNascita {
+    position: absolute;
+    top: 21.1rem;
+    left: 6rem;
+}
+
+.c110>.container16>.comuneResid {
+    position: absolute;
+    top: 21.1rem;
+    left: 18.5rem;
+}
+
+.c110>.container16>.viaResid {
+    position: absolute;
+    top: 21.1rem;
+    left: 35.5rem;
+}
+
+.c110>.container16>.numResid {
+    position: absolute;
+    top: 22.5rem;
+    left: 9.1rem;
+}
+
+.c110>.container16>.comuneImm {
+    position: absolute;
+    top: 22.5rem;
+    left: 35.1rem;
+}
+
+.c110>.container16>.viaImm {
+    position: absolute;
+    top: 24rem;
+    left: 8.4rem;
+}
+
+.c110>.container16>.numImm {
+    position: absolute;
+    top: 24rem;
+    left: 24.4rem;
+}
+
+.c110>.container16>.comuneImm1 {
+    position: absolute;
+    top: 32.6rem;
+    left: 13rem;
+}
+
+.c110>.container16>.provinciaImm {
+    position: absolute;
+    top: 32.6rem;
+    left: 31rem;
+}
+
+.c110>.container16>.viaImm1 {
+    position: absolute;
+    top: 32.6rem;
+    left: 37rem;
+}
+
+.c110>.container16>.numImm1 {
+    position: absolute;
+    top: 34rem;
+    left: 14rem;
+}
+
+.c110>.container17>.committente {
+    position: absolute;
+    top: 14.8rem;
+    left: 7rem;
+}
+
+.c110>.container17>.comuneNascita {
+    position: absolute;
+    top: 17.7rem;
+    left: 10rem;
+}
+
+.c110>.container17>.provinciaNascita {
+    position: absolute;
+    top: 17.7rem;
+    left: 40rem;
+}
+
+.c110>.container17>.dataNascita {
+    position: absolute;
+    top: 20.7rem;
+    left: 8rem;
+}
+
+.c110>.container17>.cf {
+    position: absolute;
+    top: 20.7rem;
+    left: 25rem;
+}
+
+.c110>.container17>.viaResid {
+    position: absolute;
+    top: 23.6rem;
+    left: 12.5rem;
+}
+
+.c110>.container17>.numResid {
+    position: absolute;
+    top: 23.6rem;
+    left: 37rem;
+}
+
+.c110>.container17>.provinciaResid {
+    position: absolute;
+    top: 26.5rem;
+    left: 38rem;
+}
+
+.c110>.container17>.comuneResid {
+    position: absolute;
+    top: 26.5rem;
+    left: 10rem;
+}
+
+.c110>.container17>.telefono_mobile {
+    position: absolute;
+    top: 29.5rem;
+    left: 28rem;
+}
+
+.c110>.container17>.email {
+    position: absolute;
+    top: 32.4rem;
+    left: 9rem;
+}
+
+.c110>.container17>.comuneImm {
+    position: absolute;
+    top: 36.8rem;
+    left: 7rem;
+}
+
+.c110>.container17>.provinciaImm {
+    position: absolute;
+    top: 36.8rem;
+    left: 26rem;
+}
+
+.c110>.container17>.foglioImm {
+    position: absolute;
+    top: 38.3rem;
+    left: 8rem;
+}
+
+.c110>.container17>.partImm {
+    position: absolute;
+    top: 38.3rem;
+    left: 17rem;
+}
+
+.c110>.container17>.subImm {
+    position: absolute;
+    top: 38.3rem;
+    left: 30rem;
+}
+
+.c110>.container19>.committente {
+    position: absolute;
+    top: 60.7rem;
+    left: 15rem;
+}
+
+.c110>.container19>.telefono_mobile {
+    position: absolute;
+    top: 62.5rem;
+    left: 14rem;
+}
+
+.c110>.container19>.email {
+    position: absolute;
+    top: 66rem;
+    left: 14rem;
+}
+
+.c110>.container21>.nome {
+    position: absolute;
+    top: 11.3rem;
+    left: 8rem;
+}
+
+.c110>.container21>.cognome {
+    position: absolute;
+    top: 11.3rem;
+    left: 21rem;
+}
+
+.c110>.container21>.comuneNascita {
+    position: absolute;
+    top: 13.9rem;
+    left: 8rem;
+}
+
+.c110>.container21>.dataNascita {
+    position: absolute;
+    top: 13.9rem;
+    left: 20rem;
+}
+
+.c110>.container21>.cf {
+    position: absolute;
+    top: 16.4rem;
+    left: 12rem;
+}
+
+.c110>.container21>.viaResid {
+    position: absolute;
+    top: 19rem;
+    left: 12.4rem;
+}
+
+.c110>.container21>.comuneResid {
+    position: absolute;
+    top: 21.5rem;
+    left: 9rem;
+}
+
+.c110>.container21>.provinciaResid {
+    position: absolute;
+    top: 21.5rem;
+    left: 30rem;
+}
+
+.c110>.container25>.committente {
+    position: absolute;
+    top: 15.2rem;
+    left: 19rem;
+}
+
+.c110>.container25>.comuneNascita {
+    position: absolute;
+    top: 16.7rem;
+    left: 10rem;
+}
+
+.c110>.container25>.provinciaNascita {
+    position: absolute;
+    top: 16.7rem;
+    left: 26rem;
+}
+
+.c110>.container25>.dataNascita {
+    position: absolute;
+    top: 16.7rem;
+    left: 32rem;
+}
+
+.c110>.container25>.comuneResid {
+    position: absolute;
+    top: 18.25rem;
+    left: 6.6rem;
+}
+
+.c110>.container25>.viaResid {
+    position: absolute;
+    top: 18.25rem;
+    left: 20.6rem;
+}
+
+.c110>.container25>.numResid {
+    position: absolute;
+    top: 18.25rem;
+    left: 38.6rem;
+}
+
+.c110>.container26>.committente11{
+    position: absolute;
+    top: 19rem;
+    left: 11.6rem;
+}
+.c110>.container26>.comuneNascita11{
+    position: absolute;
+    top: 20.6rem;
+    left: 8.6rem;
+}
+.c110>.container26>.dataNascita11{
+    position: absolute;
+    top: 20.6rem;
+    left: 26.6rem;
+}
+.c110>.container26>.comuneResid10{
+    position: absolute;
+    top: 22.3rem;
+    left: 10.6rem;
+}
+.c110>.container26>.viaResid9{
+    position: absolute;
+    top: 22.3rem;
+    left: 27.6rem;
+}
+.c110>.container26>.numResid7{
+    position: absolute;
+    top: 22.3rem;
+    left: 42.6rem;
+}
+.c110>.container26>.telefono_mobile3{
+    position: absolute;
+    top: 24rem;
+    left: 7.6rem;
+}
+.c110>.container26>.cf9{
+    position: absolute;
+    top: 24rem;
+    left: 22.6rem;
+}
+
+.c110>.container28>.committente12{
+    position: absolute;
+    top: 10rem;
+    left: 12rem;
+}
+.c110>.container28>.comuneNascita12{
+    position: absolute;
+    top: 10rem;
+    left: 28.5rem;
+}
+.c110>.container28>.provinciaNascita7{
+    position: absolute;
+    top: 11.7rem;
+    left: 5.2rem;
+}
+.c110>.container28>.dataNascita12{
+    position: absolute;
+    top: 11.7rem;
+    left: 7.7rem;
+}
+.c110>.container28>.cf10{
+    position: absolute;
+    top: 11.7rem;
+    left: 17.7rem;
+}
+.c110>.container28>.comuneResid11{
+    position: absolute;
+    top: 13.4rem;
+    left: 4.7rem;
+}
+.c110>.container28>.viaResid10{
+    position: absolute;
+    top: 13.4rem;
+    left: 21.7rem;
+}
+.c110>.container28>.capResid4{
+    position: absolute;
+    top: 15rem;
+    left: 6.7rem;
+}
+.c110>.container28>.viaImm9{
+    position: absolute;
+    top: 25.9rem;
+    left: 4.7rem;
+}
+
+
+.c110>.container29>.committente14{
+    position: absolute;
+    top: 7.4rem;
+    left: 9rem;
+}
+.c110>.container29>.dataNascita13{
+    position: absolute;
+    top: 7.4rem;
+    left: 31rem;
+}
+.c110>.container29>.comuneNascita13{
+    position: absolute;
+    top: 9.4rem;
+    left: 5rem;  
+}
+.c110>.container29>.provinciaNascita9{
+    position: absolute;
+    top: 9.4rem;
+    left: 19rem;
+}
+.c110>.container29>.comuneResid13{
+    position: absolute;
+    top: 9.4rem;
+    left: 25.5rem;
+}
+.c110>.container29>.provinciaResid7{
+    position: absolute;
+    top: 9.4rem;
+    left: 36.5rem;    
+}
+.c110>.container29>.viaResid12{
+    position: absolute;
+    top: 11.4rem;
+    left: 8.5rem;
+}
+.c110>.container29>.capResid6{
+    position: absolute;
+    top: 11.4rem;
+    left: 31.5rem;
+}
+.c110>.container29>.cf11{
+    position: absolute;
+    top: 13.4rem;
+    left: 11rem;
+}
+.c110>.containe29>.numDoc3{
+    position: absolute;
+    top: 13.4rem;
+    left: 32rem;
+}
+.c110>.container29>.rilascioDoc3{
+    position: absolute;
+    top: 15.4rem;
+    left: 4rem;
+}
+.c110>.container29>.dataDoc4{
+    position: absolute;
+    top: 15.4rem;
+    left: 27rem;
+}
+
+
+.c110>.container30>.committente15{
+    position: absolute;
+    top: 20.1rem;
+    left: 27rem; 
+}
+.c110>.container30>.committente16{
+    position: absolute;
+    top: 36.1rem;
+    left: 32rem;
+}
+.c110>.container30>.comuneNascita14{
+    position: absolute;
+    top: 38rem;
+    left: 4rem;
+}
+.c110>.container30>.dataNascita14{
+    position: absolute;
+    top: 38rem;
+    left: 17rem;
+}
+.c110>.container30>.comuneResid14{
+    position: absolute;
+    top: 38rem;
+    left: 30.3rem;
+    }
+.c110>.container30>.comuneResid17{
+    position: absolute;
+    top: 39.8rem;
+    left: 27.3rem;
+}
+.c110>.container30>.viaResid13{
+    position: absolute;
+    top: 39.8rem;
+    left: 6rem;
+}
+.c110>.container30>.cf12{
+    position: absolute;
+    top: 41.5rem;
+    left: 4rem;
+}
+
+
+.c110>.container32>.committente18{
+    position: absolute;
+    top: 9.4rem;
+    left: 12rem;
+}
+.c110>.container32>.dataNascita16{
+    position: absolute;
+    top: 9.4rem;
+    left: 37rem;
+}
+.c110>.container32>.comuneNascita16{
+    position: absolute;
+    top: 11.1rem;
+    left: 5rem;
+}
+.c110>.container32>.provinciaNascita11{
+    position: absolute;
+    top: 11.1rem;
+    left: 22.5rem;
+    }
+.c110>.container32>.comuneResid16{
+    position: absolute;
+    top: 11.1rem;
+    left: 31.5rem;
+}
+.c110>.container32>.provinciaResid9{
+    position: absolute;
+    top: 13rem;
+    left: 6.5rem;
+}
+.c110>.container32>.viaResid15{
+    position: absolute;
+    top: 13rem;
+    left: 11.5rem;
+}
+.c110>.container32>.capResid8{
+    position: absolute;
+    top: 13rem;
+    left: 40rem;
+}
+.c110>.container32>.cf14{
+    position: absolute;
+    top: 14.8rem;
+    left: 4rem;
+}
+.c110>.container32>.comuneImm13 {
+    position: absolute;
+    top: 20rem;
+    left: 31rem;
+}
+.c110>.container32>.provinciaImm88{
+    position: absolute;
+    top: 21.5rem;
+    left: 7rem;
+    }
+    
+.c110>.container32>.viaImm11{
+    position: absolute;
+    top: 21.5rem;
+    left: 13rem;
+}
+.c110>.container32>.capImm3{
+    position: absolute;
+    top: 21.5rem;
+    left: 41rem;
+}
+.c110>.container32>.foglioImm7{
+    position: absolute;
+    top: 23rem;
+    left: 12rem;
+}
+.c110>.container32>.partImm7{
+    position: absolute;
+    top: 23rem;
+    left: 18rem;
+}
+.c110>.container32>.subImm7{
+    position: absolute;
+    top: 23rem;
+    left: 23.5rem;
+}
+.c110>.container32>.committente19{
+    position: absolute;
+    top: 35rem;
+    left: 28.5rem;
+}
+.c110>.container32>.comuneNascita17{
+    position: absolute;
+    top: 36.9rem;
+    left: 2.5rem;
+}
+.c110>.container32>.dataNascita17{
+    position: absolute;
+    top: 36.9rem;
+    left: 15.5rem;
+}
+.c110>.container32>.comuneResid88{
+    position: absolute;
+    top: 36.9rem;
+    left: 31.5rem;
+}
+.c110>.container32>.viaResid16{
+    position: absolute;
+    top: 38.6rem;
+    left: 8.5rem;
+}
+.c110>.container32>.comuneResid19{
+    position: absolute;
+    top: 38.6rem;
+    left: 27.8rem;
+}
+.c110>.container32>.cf15{
+    position: absolute;
+    top: 40.4rem;
+    left: 4.5rem;
+}
+
+
+.c110>.container37>.committente17{
+    position: absolute;
+    top: 7.6rem;
+    left: 10.2rem;
+}
+.c110>.container37>.comuneNascita15{
+    position: absolute;
+    top: 7.6rem;
+    left: 26.7rem;
+}
+.c110>.container37>.provinciaNascita10{
+    position: absolute;
+    top: 7.6rem;
+    left: 38rem;
+}
+.c110>.container37>.dataNascita15{
+    position: absolute;
+    top: 7.6rem;
+    left: 41rem;
+}
+.c110>.container37>.cf13{
+    position: absolute;
+    top: 8.7rem;
+    left: 9rem;
+}
+.c110>.container37>.comuneResid15{
+    position: absolute;
+    top: 8.7rem;
+    left: 24.5rem;
+}
+.c110>.container37>.capResid7{
+    position: absolute;
+    top: 8.7rem;
+    left: 42rem;
+}
+.c110>.container37>.provinciaResid8{
+    position: absolute;
+    top: 9.8rem;
+    left: 6.3rem;
+}
+.c110>.container37>.viaResid14{
+    position: absolute;
+    top: 9.8rem;
+    left: 14.3rem;
+}
+.c110>.container37>.nresid{
+    position: absolute;
+    top: 9.8rem;
+    left: 35.5rem;
+}
+
+
+.c110>.container37>.comuneImm12{
+    position: absolute;
+    top: 18.8rem;
+    left: 23.8rem;
+}
+.c110>.container37>.capImm12{
+    position: absolute;
+    top: 18.8rem;
+    left: 37rem;
+}
+.c110>.container37>.provinciaImm7{
+    position: absolute;
+    top: 18.8rem;
+    left: 44rem;
+}
+.c110>.container37>.viaImm10{
+    position: absolute;
+    top: 19.8rem;
+    left: 5rem;
+}
+.c110>.container37>.nimm15{
+    position: absolute;
+    top: 19.8rem;
+    left: 27.2rem;
+}
+    
+.c110>.container37>.viaImm111{
+    position: absolute;
+    top: 29.8rem;
+    left: 13.2rem;
+}
+.c110>.container37>.nimm16{
+    position: absolute;
+    top: 29.8rem;
+    left: 43.5rem;
+}
+.c110>.container37>.capImm13{
+    position: absolute;
+    top: 31rem;
+    left: 10rem;
+}
+.c110>.container37>.comuneImm14{
+    position: absolute;
+    top: 31rem;
+    left: 18rem;
+}
+.c110>.container37>.provinciaImm8{
+    position: absolute;
+    top: 31rem;
+    left: 32rem;
+}
+    
+
+.c110>.container37>.sezc1{
+    position: absolute;
+    top: 33.2rem;
+    left: 25rem;
+}    
+.c110>.container37>.foglioImm6{
+    position: absolute;
+    top: 34.4rem;
+    left: 21rem;
+}
+.c110>.container37>.partImm6{
+    position: absolute;
+    top: 34.4rem;
+    left: 32rem;
+}
+.c110>.container37>.subImm6{
+    position: absolute;
+    top: 35.4rem;
+    left: 6.5rem;
+}
+
+
+.c110>.container41>.committente {
+    position: absolute;
+    top: 20.1rem;
+    left: 27rem;
+}
+
+.c110>.container41>.committente1 {
+    position: absolute;
+    top: 36.1rem;
+    left: 32rem;
+}
+
+.c110>.container41>.comuneNascita {
+    position: absolute;
+    top: 38rem;
+    left: 4rem;
+}
+
+.c110>.container41>.dataNascita {
+    position: absolute;
+    top: 38rem;
+    left: 17rem;
+}
+
+.c110>.container41>.comuneResid {
+    position: absolute;
+    top: 38rem;
+    left: 30.3rem;
+}
+
+.c110>.container41>.comuneResid1 {
+    position: absolute;
+    top: 39.8rem;
+    left: 27.3rem;
+}
+
+.c110>.container41>.viaResid {
+    position: absolute;
+    top: 39.8rem;
+    left: 6rem;
+}
+
+.c110>.container41>.cf {
+    position: absolute;
+    top: 41.5rem;
+    left: 4rem;
+}
+
+/*===========================
+  Material Report
+===========================*/
+
+.matarial_report>.container0>.comuneNascita {
+    position: absolute;
+    top: 20rem;
+    left: 38rem;
+}
+
+.matarial_report>.container0>.provinciaNascita {
+    position: absolute;
+    top: 21.9rem;
+    left: 10.2rem;
+}
+
+
+.matarial_report>.container0>.comuneResid {
+    position: absolute;
+    top: 21.9rem;
+    left: 24rem;
+}
+
+.matarial_report>.container0>.provinciaResid {
+    position: absolute;
+    top: 21.9rem;
+    left: 42.5rem;
+}
+
+
+.matarial_report>.container0>.viaResid {
+    position: absolute;
+    top: 51.8rem;
+    left: 24.5rem;
+}
+
+.matarial_report>.container0>.dataNascita {
+    position: absolute;
+    top: 20rem;
+    left: 12.4rem;
+}
+
+.matarial_report>.container0>.comuneImm {
+    position: absolute;
+    top: 51.8rem;
+    left: 31.4rem;
+}
+
+
+
+/*===========================
+      c-50
+===========================*/
+
+.c50>.container0>.committente {
+    position: absolute;
+    top: 17.2rem;
+    left: 19rem;
+}
+
+.c50>.container0>.cf {
+    position: absolute;
+    top: 19.6rem;
+    left: 4.2rem;
+}
+
+.c50>.container0>.comuneNascita {
+    position: absolute;
+    top: 19.6rem;
+    left: 24rem;
+}
+
+.c50>.container0>.provinciaNascita {
+    position: absolute;
+    top: 19.6rem;
+    left: 36.2rem;
+}
+
+.c50>.container0>.dataNascita {
+    position: absolute;
+    top: 19.6rem;
+    left: 39.8rem;
+}
+
+.c50>.container0>.comuneResid {
+    position: absolute;
+    top: 22rem;
+    left: 12rem;
+}
+
+.c50>.container0>.provinciaResid {
+    position: absolute;
+    top: 22rem;
+    left: 32.5rem;
+}
+
+.c50>.container0>.viaResid {
+    position: absolute;
+    top: 24.5rem;
+    left: 4.4rem;
+}
+
+.c50>.container0>.numResid {
+    position: absolute;
+    top: 24.5rem;
+    left: 32rem;
+}
+
+.c50>.container0>.comuneImm {
+    position: absolute;
+    top: 29.3rem;
+    left: 4rem;
+}
+
+.c50>.container0>.provinciaImm {
+    position: absolute;
+    top: 29.3rem;
+    left: 27.9rem;
+}
+
+.c50>.container0>.viaImm {
+    position: absolute;
+    top: 31.8rem;
+    left: 4rem;
+}
+
+.c50>.container0>.numImm {
+    position: absolute;
+    top: 31.8rem;
+    left: 25.5rem;
+}
+
+.c50>.container0>.comuneImm1 {
+    position: absolute;
+    top: 34.2rem;
+    left: 4rem;
+}
+
+.c50>.container0>.foglioImm {
+    position: absolute;
+    top: 34.2rem;
+    left: 28.5rem;
+}
+
+.c50>.container0>.partImm {
+    position: absolute;
+    top: 34.2rem;
+    left: 34.5rem;
+}
+
+.c50>.container0>.subImm {
+    position: absolute;
+    top: 34.2rem;
+    left: 40rem;
+}
+
+.c50>.container1>.comuneImm {
+    position: absolute;
+    top: 44.6rem;
+    left: 14.8rem;
+}
+
+.c50>.container1>.provinciaImm {
+    position: absolute;
+    top: 44.6rem;
+    left: 33.2rem;
+}
+
+.c50>.container1>.viaImm {
+    position: absolute;
+    top: 46rem;
+    left: 4rem;
+}
+
+.c50>.container1>.numImm {
+    position: absolute;
+    top: 46rem;
+    left: 25rem;
+}
+
+.c50>.container1>.foglioImm {
+    position: absolute;
+    top: 46rem;
+    left: 34.8rem;
+}
+
+.c50>.container1>.partImm {
+    position: absolute;
+    top: 46rem;
+    left: 39.8rem;
+}
+
+.c50>.container1>.subImm {
+    position: absolute;
+    top: 46rem;
+    left: 44.5rem;
+}
+
+.c50>.container9>.committente {
+    position: absolute;
+    top: 7.9rem;
+    left: 9.7rem;
+}
+
+.c50>.container9>.cf {
+    position: absolute;
+    top: 9rem;
+    left: 8.9rem;
+}
+
+.c50>.container9>.comuneNascita {
+    position: absolute;
+    top: 7.9rem;
+    left: 24.7rem;
+}
+
+.c50>.container9>.provinciaNascita {
+    position: absolute;
+    top: 7.9rem;
+    left: 37.5rem;
+}
+
+.c50>.container9>.dataNascita {
+    position: absolute;
+    top: 7.9rem;
+    left: 41.3rem;
+}
+
+.c50>.container9>.comuneResid {
+    position: absolute;
+    top: 9rem;
+    left: 23.3rem;
+}
+
+.c50>.container9>.provinciaResid {
+    position: absolute;
+    top: 9rem;
+    left: 42rem;
+}
+
+.c50>.container9>.capResid {
+    position: absolute;
+    top: 9rem;
+    left: 35rem;
+}
+
+.c50>.container9>.viaResid {
+    position: absolute;
+    top: 10.1rem;
+    left: 3rem;
+}
+
+.c50>.container9>.numResid {
+    position: absolute;
+    top: 10.1rem;
+    left: 20.3rem;
+}
+
+.c50>.container9>.comuneImm {
+    position: absolute;
+    top: 13.5rem;
+    left: 26.5rem;
+}
+
+.c50>.container9>.capImm {
+    position: absolute;
+    top: 13.5rem;
+    left: 38rem;
+}
+
+.c50>.container9>.provinciaImm {
+    position: absolute;
+    top: 13.5rem;
+    left: 44.4rem;
+}
+
+.c50>.container9>.viaImm {
+    position: absolute;
+    top: 14.5rem;
+    left: 4rem;
+}
+
+.c50>.container9>.numImm {
+    position: absolute;
+    top: 14.5rem;
+    left: 19.1rem;
+}
+
+.c50>.container9>.comuneImm1 {
+    position: absolute;
+    top: 21.2rem;
+    left: 32rem;
+}
+
+.c50>.container9>.provinciaImm1 {
+    position: absolute;
+    top: 21.2rem;
+    left: 42.6rem;
+}
+
+.c50>.container9>.viaImm1 {
+    position: absolute;
+    top: 22.4rem;
+    left: 6rem;
+}
+
+.c50>.container9>.numImm1 {
+    position: absolute;
+    top: 22.4rem;
+    left: 22.8rem;
+}
+
+.c50>.container9>.comuneImm2 {
+    position: absolute;
+    top: 23.4rem;
+    left: 6rem;
+}
+
+.c50>.container9>.foglioImm {
+    position: absolute;
+    top: 23.4rem;
+    left: 18rem;
+}
+
+.c50>.container9>.partImm {
+    position: absolute;
+    top: 23.4rem;
+    left: 25rem;
+}
+
+.c50>.container9>.subImm {
+    position: absolute;
+    top: 23.4rem;
+    left: 32rem;
+}
+
+.c50>.container9>.sezcat {
+    position: absolute;
+    top: 23.4rem;
+    left: 41.5rem;
+}
+
+.c50>.container9>.committente1 {
+    position: absolute;
+    top: 25.7rem;
+    left: 31rem;
+}
+
+.c50>.container9>.cf1 {
+    position: absolute;
+    top: 26.8rem;
+    left: 33.5rem;
+}
+
+.c50>.container9>.comuneNascita1 {
+    position: absolute;
+    top: 26.8rem;
+    left: 6.7rem;
+}
+
+.c50>.container9>.provinciaNascita1 {
+    position: absolute;
+    top: 26.8rem;
+    left: 18.2rem;
+}
+
+.c50>.container9>.dataNascita1 {
+    position: absolute;
+    top: 26.8rem;
+    left: 21.5rem;
+}
+
+.c50>.container8>.committente {
+    position: absolute;
+    top: 9.4rem;
+    left: 12rem;
+}
+
+.c50>.container8>.dataNascita {
+    position: absolute;
+    top: 9.4rem;
+    left: 37rem;
+}
+
+.c50>.container8>.comuneNascita {
+    position: absolute;
+    top: 11.2rem;
+    left: 5rem;
+}
+
+.c50>.container8>.provinciaNascita {
+    position: absolute;
+    top: 11.2rem;
+    left: 22.5rem;
+}
+
+.c50>.container8>.comuneResid {
+    position: absolute;
+    top: 11.2rem;
+    left: 31.5rem;
+}
+
+.c50>.container8>.provinciaResid {
+    position: absolute;
+    top: 13rem;
+    left: 6.5rem;
+}
+
+.c50>.container8>.viaResid {
+    position: absolute;
+    top: 13rem;
+    left: 11.5rem;
+}
+
+.c50>.container8>.capResid {
+    position: absolute;
+    top: 13rem;
+    left: 40rem;
+}
+
+.c50>.container8>.cf {
+    position: absolute;
+    top: 14.8rem;
+    left: 4rem;
+}
+
+.c50>.container8>.comuneImm {
+    position: absolute;
+    top: 20rem;
+    left: 31rem;
+}
+
+.c50>.container8>.provinciaImm {
+    position: absolute;
+    top: 21.5rem;
+    left: 7rem;
+}
+
+.c50>.container8>.viaImm {
+    position: absolute;
+    top: 21.5rem;
+    left: 13rem;
+}
+
+.c50>.container8>.capImm {
+    position: absolute;
+    top: 21.5rem;
+    left: 41rem;
+}
+
+.c50>.container8>.foglioImm {
+    position: absolute;
+    top: 23rem;
+    left: 12rem;
+}
+
+.c50>.container8>.partImm {
+    position: absolute;
+    top: 23rem;
+    left: 18rem;
+}
+
+.c50>.container8>.subImm {
+    position: absolute;
+    top: 23rem;
+    left: 23.5rem;
+}
+
+.c50>.container8>.committente1 {
+    position: absolute;
+    top: 35rem;
+    left: 28.5rem;
+}
+
+.c50>.container8>.comuneNascita1 {
+    position: absolute;
+    top: 36.9rem;
+    left: 4.5rem;
+}
+
+.c50>.container8>.dataNascita1 {
+    position: absolute;
+    top: 36.9rem;
+    left: 15.5rem;
+}
+
+.c50>.container8>.comuneResid1 {
+    position: absolute;
+    top: 36.9rem;
+    left: 31.5rem;
+}
+
+.c50>.container8>.viaResid1 {
+    position: absolute;
+    top: 38.6rem;
+    left: 8.5rem;
+}
+
+.c50>.container8>.comuneResid2 {
+    position: absolute;
+    top: 38.55rem;
+    left: 28.5rem;
+}
+
+.c50>.container8>.cf1 {
+    position: absolute;
+    top: 40.4rem;
+    left: 4.5rem;
+}
+
+
+/*===========================
+      cdich-30
+===========================*/
+
+.cdich30>.TECNICO {
+    position: absolute;
+    top: 7.5rem;
+    left: 9.5rem;
+}
+
+.cdich30>.usercomunen {
+    position: absolute;
+    top: 7.5rem;
+    left: 24.7rem;
+}
+
+.cdich30>.usercomune {
+    position: absolute;
+    top: 8.7rem;
+    left: 9rem;
+}
+
+.cdich30>.userprovn {
+    position: absolute;
+    top: 7.5rem;
+    left: 32.5rem;
+}
+
+.cdich30>.userdatan {
+    position: absolute;
+    top: 7.5rem;
+    left: 38.5rem;
+}
+
+.cdich30>.usercf {
+    position: absolute;
+    top: 8.7rem;
+    left: 30rem;
+}
+
+.cdich30>.usercoll {
+    position: absolute;
+    top: 9.9rem;
+    left: 17rem;
+}
+
+.cdich30>.usercomcoll {
+    position: absolute;
+    top: 9.9rem;
+    left: 35rem;
+}
+
+.cdich30>.useriscr {
+    position: absolute;
+    top: 11.2rem;
+    left: 11rem;
+}
+
+.cdich30>.dati_catasto {
+    position: absolute;
+    top: 20rem;
+    left: 22rem;
+}
+
+.cdich30>.foglioImm {
+    position: absolute;
+    top: 21.3rem;
+    left: 12.5rem;
+}
+
+.cdich30>.partImm {
+    position: absolute;
+    top: 21.3rem;
+    left: 21.5rem;
+}
+
+.cdich30>.subImm {
+    position: absolute;
+    top: 21.3rem;
+    left: 35rem;
+}
+
+.cdich30>.catc {
+    position: absolute;
+    top: 22.5rem;
+    left: 14rem;
+}
+
+.cdich30>.castellana {
+    position: absolute;
+    top: 50rem;
+    left: 3rem;
+}
+
+.cdich30>.dataod {
+    position: absolute;
+    top: 50rem;
+    left: 13rem;
+}
+
+.cdich30>.t_u {
+    position: absolute;
+    top: 20rem;
+    left: 29rem;
+}
+
+.cdich30>.tratto {
+    position: absolute;
+    top: 21.3rem;
+    left: 6.5rem;
+}
+
+
+/*===========================
+      cupsa
+===========================*/
+
+.cupsa>.committente {
+    position: absolute;
+    top: 12.2rem;
+    left: 14.5rem;
+}
+
+.cupsa>.cf {
+    position: absolute;
+    top: 13.7rem;
+    left: 8rem;
+}
+
+.cupsa>.comuneResid {
+    position: absolute;
+    top: 13.7rem;
+    left: 26.5rem;
+}
+
+.cupsa>.viaResid {
+    position: absolute;
+    top: 15.2rem;
+    left: 11rem;
+}
+
+.cupsa>.provinciaResid {
+    position: absolute;
+    top: 15.2rem;
+    left: 5.3rem;
+}
+
+.cupsa>.comuneImm {
+    position: absolute;
+    top: 22.8rem;
+    left: 5.9rem;
+}
+
+.cupsa>.viaImm {
+    position: absolute;
+    top: 22.8rem;
+    left: 22rem;
+}
+
+.cupsa>.provinciaImm {
+    position: absolute;
+    top: 19.7rem;
+    left: 10rem;
+}
+
+.cupsa>.sezc {
+    position: absolute;
+    top: 21.2rem;
+    left: 15rem;
+}
+
+.cupsa>.foglioImm {
+    position: absolute;
+    top: 21.2rem;
+    left: 23.5rem;
+}
+
+.cupsa>.partImm {
+    position: absolute;
+    top: 21.2rem;
+    left: 32.5rem;
+}
+
+.cupsa>.subImm {
+    position: absolute;
+    top: 21.2rem;
+    left: 42.5rem;
+}
+
+
+/*===========================
+      ctecnico
+===========================*/
+
+.ctecnico>.committente {
+    position: absolute;
+    top: 45rem;
+    left: 19rem;
+}
+
+.ctecnico>.cf {
+    position: absolute;
+    top: 46.3rem;
+    left: 8rem;
+}
+
+.ctecnico>.committente2 {
+    position: absolute;
+    top: 58.3rem;
+    left: 6rem;
+}
+
+.ctecnico>.comuneImm {
+    position: absolute;
+    top: 59.8rem;
+    left: 7.1rem;
+}
+
+.ctecnico>.foglioImm {
+    position: absolute;
+    top: 59.7rem;
+    left: 25.7rem;
+}
+
+.ctecnico>.partImm {
+    position: absolute;
+    top: 59.7rem;
+    left: 29.5rem;
+}
+
+.ctecnico>.subImm {
+    position: absolute;
+    top: 59.7rem;
+    left: 33.5rem;
+}
+
+
+/*===========================
+      crcee
+===========================*/
+
+.crcee>div>.nome4 {
+    position: absolute;
+    top: 415px;
+    left: 35px;
+}
+
+.crcee>div>.cognome4 {
+    position: absolute;
+    top: 415px;
+    left: 430px;
+}
+
+.crcee>div>.cna4 {
+    position: absolute;
+    top: 465px;
+    left: 35px;
+}
+
+.crcee>div>.pna4 {
+    position: absolute;
+    top: 465px;
+    left: 500px;
+}
+
+.crcee>div>.dna4 {
+    position: absolute;
+    top: 465px;
+    left: 610px;
+}
+
+.crcee>div>.comResid4 {
+    position: absolute;
+    top: 518px;
+    left: 35px;
+}
+
+.crcee>div>.proResid4 {
+    position: absolute;
+    top: 518px;
+    left: 500px;
+}
+
+.crcee>div>.viaResid4 {
+    position: absolute;
+    top: 570px;
+    left: 35px;
+}
+
+.crcee>div>.nResid4 {
+    position: absolute;
+    top: 570px;
+    left: 630px;
+}
+
+.crcee>div>.capResid4 {
+    position: absolute;
+    top: 518px;
+    left: 630px;
+}
+
+.crcee>div>.cf4 {
+    position: absolute;
+    top: 630px;
+    left: 35px;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+.crcee>div>.nome5 {
+    position: absolute;
+    top: 1322px;
+    left: 35px;
+}
+
+.crcee>div>.cognome5 {
+    position: absolute;
+    top: 1322px;
+    left: 430px;
+}
+
+.crcee>div>.cna5 {
+    position: absolute;
+    top: 1380px;
+    left: 35px;
+}
+
+.crcee>div>.pna5 {
+    position: absolute;
+    top: 1380px;
+    left: 500px;
+}
+
+.crcee>div>.dna5 {
+    position: absolute;
+    top: 1380px;
+    left: 610px;
+}
+
+.crcee>div>.comResid5 {
+    position: absolute;
+    top: 1436px;
+    left: 35px;
+}
+
+.crcee>div>.proResid5 {
+    position: absolute;
+    top: 1436px;
+    left: 500px;
+}
+
+.crcee>div>.viaResid5 {
+    position: absolute;
+    top: 1479px;
+    left: 35px;
+}
+
+.crcee>div>.nResid5 {
+    position: absolute;
+    top: 1479px;
+    left: 630px;
+}
+
+.crcee>div>.capResid5 {
+    position: absolute;
+    top: 1436px;
+    left: 630px;
+}
+
+.crcee>div>.cf5 {
+    position: absolute;
+    top: 1520px;
+    left: 35px;
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+
+.crcee>div>.comImm6 {
+    position: absolute;
+    top: 3645px;
+    left: 500px;
+}
+
+.crcee>div>.capImm6 {
+    position: absolute;
+    top: 3663px;
+    left: 120px;
+}
+
+.crcee>div>.viaImm6 {
+    position: absolute;
+    top: 3663px;
+    left: 250px;
+}
+
+.crcee>div>.nImm6 {
+    position: absolute;
+    top: 3663px;
+    left: 534px;
+}
+.crcee>div>.nImmpcod {
+    position: absolute;
+    top: 3681px;
+    left: 530px;
+}
+
+.crcee>div>.nome6 {
+    position: absolute;
+    top: 3742px;
+    left: 75px;
+}
+
+.crcee>div>.cognome6 {
+    position: absolute;
+    top: 3742px;
+    left: 420px;
+}
+
+.crcee>div>.cna6 {
+    position: absolute;
+    top: 3785px;
+    left: 75px;
+}
+
+.crcee>div>.pna6 {
+    position: absolute;
+    top: 3785px;
+    left: 335px;
+}
+
+.crcee>div>.dna6 {
+    position: absolute;
+    top: 3785px;
+    left: 560px;
+}
+
+.crcee>div>.tel6 {
+    position: absolute;
+    top: 4472px;
+    left: 415px;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+
+.crcee>div>.committente {
+    position: absolute;
+    top: 95px;
+    left: 189px;
+}
+
+.crcee>div>.cna {
+    position: absolute;
+    top: 142px;
+    left: 175px;
+}
+
+.crcee>div>.pna {
+    position: absolute;
+    top: 142px;
+    left: 505px;
+}
+
+.crcee>div>.dna {
+    position: absolute;
+    top: 142px;
+    left: 600px;
+}
+
+.crcee>div>.comResid {
+    position: absolute;
+    top: 190px;
+    left: 195px;
+}
+
+.crcee>div>.proResid {
+    position: absolute;
+    top: 189px;
+    left: 682px;
+}
+
+.crcee>div>.viaResid {
+    position: absolute;
+    top: 228px;
+    left: 195px;
+}
+
+.crcee>div>.nResid {
+    position: absolute;
+    top: 228px;
+    left: 560px;
+}
+
+.crcee>div>.capResid {
+    position: absolute;
+    top: 228px;
+    left: 660px;
+}
+
+.crcee>div>.cf {
+    position: absolute;
+    top: 265px;
+    left: 125px;
+}
+
+.crcee>div>.doc {
+    position: absolute;
+    top: 303px;
+    left: 250px;
+}
+.crcee>div>.missing {
+    position: absolute;
+    top: 299px;
+    left: 248px;
+}
+
+.crcee>div>.ndoc {
+    position: absolute;
+    top: 303px;
+    left: 530px;
+}
+
+.crcee>div>.ril {
+    position: absolute;
+    top: 341px;
+    left: 180px;
+}
+
+.crcee>div>.dril {
+    position: absolute;
+    top: 341px;
+    left: 630px;
+}
+
+.crcee>div>.comImm {
+    position: absolute;
+    top: 379px;
+    left: 535px;
+}
+
+.crcee>div>.viaImm {
+    position: absolute;
+    top: 418px;
+    left: 115px;
+}
+
+.crcee>div>.nImm {
+    position: absolute;
+    top: 418px;
+    left: 510px;
+}
+
+
+/*------------------------------------------------------------------------*/
+
+.crcee>div>.comImm2 {
+    position: absolute;
+    top: 6.6rem;
+    left: 485px;
+}
+
+.crcee>div>.proImm2 {
+    position: absolute;
+    top: 6.6rem;
+    left: 720px;
+}
+
+.crcee>div>.viaImm2 {
+    position: absolute;
+    top: 7.7rem;
+    left: 90px;
+}
+
+.crcee>div>.nImm2 {
+    position: absolute;
+    top: 7.7rem;
+    left: 395px;
+}
+
+.crcee>div>.cognome2 {
+    position: absolute;
+    top: 142px;
+    left: 245px;
+}
+
+.crcee>div>.nome2 {
+    position: absolute;
+    top: 142px;
+    left: 445px;
+}
+
+.crcee>div>.cf2 {
+    position: absolute;
+    top: 142px;
+    left: 608px;
+}
+
+
+/*-----------------------------------------------------------------*/
+
+.crcee>div>.comImm3 {
+    position: absolute;
+    top: 6.6rem;
+    left: 485px;
+}
+
+.crcee>div>.proImm3 {
+    position: absolute;
+    top: 6.6rem;
+    left: 720px;
+}
+
+.crcee>div>.viaImm3 {
+    position: absolute;
+    top: 7.7rem;
+    left: 90px;
+}
+
+.crcee>div>.nImm3 {
+    position: absolute;
+    top: 7.7rem;
+    left: 395px;
+}
+
+.crcee>div>.cognome3 {
+    position: absolute;
+    top: 142px;
+    left: 245px;
+}
+
+.crcee>div>.nome3 {
+    position: absolute;
+    top: 142px;
+    left: 455px;
+}
+
+.crcee>div>.cf3 {
+    position: absolute;
+    top: 142px;
+    left: 608px;
+}
+
+.crcee>div>.nome7 {
+    position: absolute;
+    top: 190rem;
+    left: 2.3rem;
+}
+
+.crcee>div>.cognome7 {
+    position: absolute;
+    top: 190rem;
+    left: 26.6rem;
+}
+
+.crcee>div>.cna7 {
+    position: absolute;
+    top: 192.9rem;
+    left: 2.3rem;
+}
+
+.crcee>div>.pna7 {
+    position: absolute;
+    top: 192.9rem;
+    left: 26.6rem;
+}
+
+.crcee>div>.dna7 {
+    position: absolute;
+    top: 192.9rem;
+    left: 38.3rem;
+}
+
+.crcee>div>.cf7 {
+    position: absolute;
+    top: 196rem;
+    left: 2rem;
+}
+
+.crcee>div>.comImm7 {
+    position: absolute;
+    top: 200.8rem;
+    left: 35px;
+}
+
+.crcee>div>.proImm7 {
+    position: absolute;
+    top: 200.8rem;
+    left: 26rem;
+}
+
+.crcee>div>.capImm7 {
+    position: absolute;
+    top: 200.8rem;
+    left: 38rem;
+}
+
+.crcee>div>.viaImm7 {
+    position: absolute;
+    top: 203.9rem;
+    left: 35px;
+}
+
+.crcee>div>.nImm7 {
+    position: absolute;
+    top: 203.9rem;
+    left: 38rem;
+}
+
+.crcee>div>.cf8 {
+    position: absolute;
+    top: 206.9rem;
+    left: 35px;
+}
+
+
+/*===========================
+      cpreanalisi
+===========================*/
+
+.cpreanalisi>div>.cognome {
+    position: absolute;
+    top: 37rem;
+    left: 208px;
+}
+
+.cpreanalisi>div>.viaresid {
+    position: absolute;
+    top: 39.4rem;
+    left: 8rem;
+}
+
+.cpreanalisi>div>.cf {
+    position: absolute;
+    top: 38.2rem;
+    left: 85px;
+}
+
+.cpreanalisi>div>.email {
+    position: absolute;
+    top: 39.4rem;
+    left: 33rem;
+}
+
+.cpreanalisi>div>.mobile {
+    position: absolute;
+    top: 40.5rem;
+    left: 8rem;
+}
+
+.cpreanalisi>div>.nresid {
+    position: absolute;
+    top: 39.4rem;
+    left: 445px;
+}
+
+.cpreanalisi>div>.comresid {
+    position: absolute;
+    top: 38.2rem;
+    left: 465px;
+}
+
+.cpreanalisi>div>.viaImm {
+    position: absolute;
+    top: 41.7rem;
+    left: 10rem;
+}
+
+.cpreanalisi>div>.numImm {
+    position: absolute;
+    top: 22.6rem;
+    left: 385px;
+}
+
+.cpreanalisi>div>.comuneImm {
+    position: absolute;
+    top: 40.5rem;
+    left: 33rem;
+}
+
+.cpreanalisi>div>.tecnico {
+    position: absolute;
+    top: 12.9rem;
+    left: 295px;
+}
+
+
+/*===========================
+      cmsr
+===========================*/
+
+.cmsr>div>.committente {
+    position: absolute;
+    top: 16rem;
+    left: 12rem;
+}
+
+.cmsr>div>.dataNascita {
+    position: absolute;
+    top: 17.2rem;
+    left: 8rem;
+}
+
+.cmsr>div>.comuneNascita {
+    position: absolute;
+    top: 17.2rem;
+    left: 20rem;
+}
+
+.cmsr>div>.provinciaNascita {
+    position: absolute;
+    top: 17.2rem;
+    left: 40.5rem;
+}
+
+.cmsr>div>.comuneResid {
+    position: absolute;
+    top: 18.5rem;
+    left: 12.5rem;
+}
+
+.cmsr>div>.viaResid {
+    position: absolute;
+    top: 19.8rem;
+    left: 6rem;
+}
+
+.cmsr>div>.numResid {
+    position: absolute;
+    top: 19.8rem;
+    left: 39rem;
+}
+
+.cmsr>div>.cf {
+    position: absolute;
+    top: 21.2rem;
+    left: 6rem;
+}
+
+.cmsr>div>.committente2 {
+    position: absolute;
+    top: 58.3rem;
+    left: 6rem;
+}
+
+.cmsr>div>.comuneImm {
+    position: absolute;
+    top: 59.8rem;
+    left: 7.1rem;
+}
+
+.cmsr>div>.foglioImm {
+    position: absolute;
+    top: 59.7rem;
+    left: 25.7rem;
+}
+
+.cmsr>div>.partImm {
+    position: absolute;
+    top: 59.7rem;
+    left: 29.5rem;
+}
+
+.cmsr>div>.subImm {
+    position: absolute;
+    top: 59.7rem;
+    left: 33.5rem;
+}
+
+
+/*===========================
+      cguarino
+===========================*/
+
+.cguarino>div>.committente {
+    position: absolute;
+    top: 8.4rem;
+    left: 12.7rem;
+}
+
+.cguarino>div>.na {
+    position: absolute;
+    top: 8.4rem;
+    left: 28.9rem;
+}
+
+.cguarino>div>.dna {
+    position: absolute;
+    top: 161px;
+    left: 125px;
+}
+
+.cguarino>div>.pna {
+    position: absolute;
+    top: 136px;
+    left: 494px;
+}
+
+.cguarino>div>.via {
+    position: absolute;
+    top: 188px;
+    left: 356px;
+}
+
+.cguarino>div>.cf {
+    position: absolute;
+    top: 161px;
+    left: 291px;
+}
+
+.cguarino>div>.resid {
+    position: absolute;
+    top: 11.7rem;
+    left: 6rem;
+}
+
+.cguarino>div>.capresid {
+    position: absolute;
+    top: 13.4rem;
+    left: 8rem;
+}
+
+.cguarino>div>.immo {
+    position: absolute;
+    top: 24.2rem;
+    left: 5rem;
+}
+
+
+/*---------------------------------------------------------------------*/
+
+.cguarino>div>.committente2 {
+    position: absolute;
+    top: 79.7rem;
+    left: 10rem;
+}
+
+.cguarino>div>.dna2 {
+    position: absolute;
+    top: 79.7rem;
+    left: 31rem;
+}
+
+.cguarino>div>.na2 {
+    position: absolute;
+    top: 81.7rem;
+    left: 5.4rem;
+}
+
+.cguarino>div>.pna2 {
+    position: absolute;
+    top: 81.7rem;
+    left: 19.4rem;
+}
+
+.cguarino>div>.comresid2 {
+    position: absolute;
+    top: 81.7rem;
+    left: 25.7rem;
+}
+
+.cguarino>div>.proresid2 {
+    position: absolute;
+    top: 81.7rem;
+    left: 37rem;
+}
+
+.cguarino>div>.nresid2 {
+    position: absolute;
+    top: 83.7rem;
+    left: 27rem;
+}
+
+.cguarino>div>.capresid2 {
+    position: absolute;
+    top: 83.7rem;
+    left: 32rem;
+}
+
+.cguarino>div>.cf2 {
+    position: absolute;
+    top: 85.7rem;
+    left: 12rem;
+}
+
+.cguarino>div>.ndoc2 {
+    position: absolute;
+    top: 85.7rem;
+    left: 32rem;
+}
+
+.cguarino>div>.rildoc2 {
+    position: absolute;
+    top: 87.7rem;
+    left: 5rem;
+}
+
+.cguarino>div>.dataRildoc2 {
+    position: absolute;
+    top: 87.7rem;
+    left: 28rem;
+}
+
+.cguarino>div>.proprietario {
+    position: absolute;
+    top: 89.7rem;
+    left: 5rem;
+}
+
+
+/*------------------------------------------------------------------------*/
+
+.cguarino>div>.committente3 {
+    position: absolute;
+    top: 19.9rem;
+    left: 28rem;
+}
+
+.cguarino>div>.committente4 {
+    position: absolute;
+    top: 36rem;
+    left: 30rem;
+}
+
+.cguarino>div>.na3 {
+    position: absolute;
+    top: 37.9rem;
+    left: 10rem;
+}
+
+.cguarino>div>.dna3 {
+    position: absolute;
+    top: 37.9rem;
+    left: 33rem;
+}
+
+.cguarino>div>.resid2 {
+    position: absolute;
+    top: 39.7rem;
+    left: 5rem;
+}
+
+.cguarino>div>.via2 {
+    position: absolute;
+    top: 39.7rem;
+    left: 25rem;
+}
+
+.cguarino>div>.cf3 {
+    position: absolute;
+    top: 41.5rem;
+    left: 9rem;
+}
+
+
+/*===========================
+      c-65
+===========================*/
+
+.c65>.container1>.committente {
+    position: absolute;
+    top: 17.2rem;
+    left: 19rem;
+}
+
+.c65>.container1>.cf {
+    position: absolute;
+    top: 19.6rem;
+    left: 4.2rem;
+}
+
+.c65>.container1>.comuneNascita {
+    position: absolute;
+    top: 19.6rem;
+    left: 24rem;
+}
+
+.c65>.container1>.provinciaNascita {
+    position: absolute;
+    top: 19.6rem;
+    left: 36.2rem;
+}
+
+.c65>.container1>.dataNascita {
+    position: absolute;
+    top: 19.6rem;
+    left: 39.8rem;
+}
+
+.c65>.container1>.comuneResid {
+    position: absolute;
+    top: 22rem;
+    left: 12rem;
+}
+
+.c65>.container1>.provinciaResid {
+    position: absolute;
+    top: 22rem;
+    left: 32.5rem;
+}
+
+.c65>.container1>.viaResid {
+    position: absolute;
+    top: 24.5rem;
+    left: 4.4rem;
+}
+
+.c65>.container1>.numResid {
+    position: absolute;
+    top: 24.5rem;
+    left: 32rem;
+}
+
+.c65>.container1>.comuneImm {
+    position: absolute;
+    top: 29.3rem;
+    left: 4rem;
+}
+
+.c65>.container1>.provinciaImm {
+    position: absolute;
+    top: 29.3rem;
+    left: 27.9rem;
+}
+
+.c65>.container1>.viaImm {
+    position: absolute;
+    top: 31.8rem;
+    left: 4rem;
+}
+
+.c65>.container1>.numImm {
+    position: absolute;
+    top: 31.8rem;
+    left: 25.5rem;
+}
+
+.c65>.container1>.comuneImm1 {
+    position: absolute;
+    top: 34.2rem;
+    left: 4rem;
+}
+
+.c65>.container1>.foglioImm {
+    position: absolute;
+    top: 34.2rem;
+    left: 28.5rem;
+}
+
+.c65>.container1>.partImm {
+    position: absolute;
+    top: 34.2rem;
+    left: 34.5rem;
+}
+
+.c65>.container1>.subImm {
+    position: absolute;
+    top: 34.2rem;
+    left: 40rem;
+}
+
+.c65>.container2>.comuneImm {
+    position: absolute;
+    top: 44.6rem;
+    left: 14.8rem;
+}
+
+.c65>.container2>.provinciaImm {
+    position: absolute;
+    top: 44.6rem;
+    left: 33.2rem;
+}
+
+.c65>.container2>.viaImm {
+    position: absolute;
+    top: 46rem;
+    left: 4rem;
+}
+
+.c65>.container2>.numImm {
+    position: absolute;
+    top: 46rem;
+    left: 25rem;
+}
+
+.c65>.container2>.foglioImm {
+    position: absolute;
+    top: 46rem;
+    left: 34.8rem;
+}
+
+.c65>.container2>.partImm {
+    position: absolute;
+    top: 46rem;
+    left: 39.8rem;
+}
+
+.c65>.container2>.subImm {
+    position: absolute;
+    top: 46rem;
+    left: 44.5rem;
+}
+
+.c65>.container10>.committente {
+    position: absolute;
+    top: 7.9rem;
+    left: 9.7rem;
+}
+
+.c65>.container10>.cf {
+    position: absolute;
+    top: 9rem;
+    left: 8.9rem;
+}
+
+.c65>.container10>.comuneNascita {
+    position: absolute;
+    top: 7.9rem;
+    left: 24.7rem;
+}
+
+.c65>.container10>.provinciaNascita {
+    position: absolute;
+    top: 7.9rem;
+    left: 37.5rem;
+}
+
+.c65>.container10>.dataNascita {
+    position: absolute;
+    top: 7.9rem;
+    left: 41.3rem;
+}
+
+.c65>.container10>.comuneResid {
+    position: absolute;
+    top: 9rem;
+    left: 23.3rem;
+}
+
+.c65>.container10>.provinciaResid {
+    position: absolute;
+    top: 9rem;
+    left: 42rem;
+}
+
+.c65>.container10>.capResid {
+    position: absolute;
+    top: 9rem;
+    left: 35rem;
+}
+
+.c65>.container10>.viaResid {
+    position: absolute;
+    top: 10.1rem;
+    left: 3rem;
+}
+
+.c65>.container10>.numResid {
+    position: absolute;
+    top: 10.1rem;
+    left: 20.3rem;
+}
+
+.c65>.container10>.comuneImm {
+    position: absolute;
+    top: 13.5rem;
+    left: 26.5rem;
+}
+
+.c65>.container10>.capImm {
+    position: absolute;
+    top: 13.5rem;
+    left: 38rem;
+}
+
+.c65>.container10>.provinciaImm {
+    position: absolute;
+    top: 13.5rem;
+    left: 44.4rem;
+}
+
+.c65>.container10>.viaImm {
+    position: absolute;
+    top: 14.5rem;
+    left: 4rem;
+}
+
+.c65>.container10>.numImm {
+    position: absolute;
+    top: 14.5rem;
+    left: 19.1rem;
+}
+
+.c65>.container10>.comuneImm1 {
+    position: absolute;
+    top: 21.2rem;
+    left: 32rem;
+}
+
+.c65>.container10>.provinciaImm1 {
+    position: absolute;
+    top: 21.2rem;
+    left: 42.6rem;
+}
+
+.c65>.container10>.viaImm1 {
+    position: absolute;
+    top: 22.4rem;
+    left: 6rem;
+}
+
+.c65>.container10>.numImm1 {
+    position: absolute;
+    top: 22.4rem;
+    left: 22.8rem;
+}
+
+.c65>.container10>.comuneImm2 {
+    position: absolute;
+    top: 23.4rem;
+    left: 6rem;
+}
+
+.c65>.container10>.foglioImm {
+    position: absolute;
+    top: 23.4rem;
+    left: 18rem;
+}
+
+.c65>.container10>.partImm {
+    position: absolute;
+    top: 23.4rem;
+    left: 25rem;
+}
+
+.c65>.container10>.subImm {
+    position: absolute;
+    top: 23.4rem;
+    left: 32rem;
+}
+
+.c65>.container10>.sezcat {
+    position: absolute;
+    top: 23.4rem;
+    left: 41.5rem;
+}
+
+.c65>.container10>.committente1 {
+    position: absolute;
+    top: 25.7rem;
+    left: 31rem;
+}
+
+.c65>.container10>.cf1 {
+    position: absolute;
+    top: 26.8rem;
+    left: 33.5rem;
+}
+
+.c65>.container10>.comuneNascita1 {
+    position: absolute;
+    top: 26.8rem;
+    left: 6.7rem;
+}
+
+.c65>.container10>.provinciaNascita1 {
+    position: absolute;
+    top: 26.8rem;
+    left: 18.2rem;
+}
+
+.c65>.container10>.dataNascita1 {
+    position: absolute;
+    top: 26.8rem;
+    left: 21.5rem;
+}
+
+.c65>.container9>.committente {
+    position: absolute;
+    top: 9.4rem;
+    left: 12rem;
+}
+
+.c65>.container9>.dataNascita {
+    position: absolute;
+    top: 9.4rem;
+    left: 37rem;
+}
+
+.c65>.container9>.comuneNascita {
+    position: absolute;
+    top: 11.2rem;
+    left: 5rem;
+}
+
+.c65>.container9>.provinciaNascita {
+    position: absolute;
+    top: 11.2rem;
+    left: 22.5rem;
+}
+
+.c65>.container9>.comuneResid {
+    position: absolute;
+    top: 11.2rem;
+    left: 31.5rem;
+}
+
+.c65>.container9>.provinciaResid {
+    position: absolute;
+    top: 13rem;
+    left: 6.5rem;
+}
+
+.c65>.container9>.viaResid {
+    position: absolute;
+    top: 13rem;
+    left: 11.5rem;
+}
+
+.c65>.container9>.capResid {
+    position: absolute;
+    top: 13rem;
+    left: 40rem;
+}
+
+.c65>.container9>.cf {
+    position: absolute;
+    top: 14.8rem;
+    left: 4rem;
+}
+
+.c65>.container9>.comuneImm {
+    position: absolute;
+    top: 20rem;
+    left: 31rem;
+}
+
+.c65>.container9>.provinciaImm {
+    position: absolute;
+    top: 21.5rem;
+    left: 7rem;
+}
+
+.c65>.container9>.viaImm {
+    position: absolute;
+    top: 21.5rem;
+    left: 13rem;
+}
+
+.c65>.container9>.capImm {
+    position: absolute;
+    top: 21.5rem;
+    left: 41rem;
+}
+
+.c65>.container9>.foglioImm {
+    position: absolute;
+    top: 23rem;
+    left: 12rem;
+}
+
+.c65>.container9>.partImm {
+    position: absolute;
+    top: 23rem;
+    left: 18rem;
+}
+
+.c65>.container9>.subImm {
+    position: absolute;
+    top: 23rem;
+    left: 23.5rem;
+}
+
+.c65>.container9>.committente1 {
+    position: absolute;
+    top: 35rem;
+    left: 28.5rem;
+}
+
+.c65>.container9>.comuneNascita1 {
+    position: absolute;
+    top: 36.9rem;
+    left: 4.5rem;
+}
+
+.c65>.container9>.dataNascita1 {
+    position: absolute;
+    top: 36.9rem;
+    left: 15.5rem;
+}
+
+.c65>.container9>.comuneResid1 {
+    position: absolute;
+    top: 36.9rem;
+    left: 31.5rem;
+}
+
+.c65>.container9>.viaResid1 {
+    position: absolute;
+    top: 38.6rem;
+    left: 8.5rem;
+}
+
+.c65>.container9>.comuneResid2 {
+    position: absolute;
+    top: 38.55rem;
+    left: 28.5rem;
+}
+
+.c65>.container9>.cf1 {
+    position: absolute;
+    top: 40.4rem;
+    left: 4.5rem;
+}
+
+
+/*===========================
+      c-90
+===========================*/
+
+.c90>.container1>.committente {
+    position: absolute;
+    top: 17.2rem;
+    left: 19rem;
+}
+
+.c90>.container1>.cf {
+    position: absolute;
+    top: 19.6rem;
+    left: 4.2rem;
+}
+
+.c90>.container1>.comuneNascita {
+    position: absolute;
+    top: 19.6rem;
+    left: 24rem;
+}
+
+.c90>.container1>.provinciaNascita {
+    position: absolute;
+    top: 19.6rem;
+    left: 36.2rem;
+}
+
+.c90>.container1>.dataNascita {
+    position: absolute;
+    top: 19.6rem;
+    left: 39.8rem;
+}
+
+.c90>.container1>.comuneResid {
+    position: absolute;
+    top: 22rem;
+    left: 12rem;
+}
+
+.c90>.container1>.provinciaResid {
+    position: absolute;
+    top: 22rem;
+    left: 32.5rem;
+}
+
+.c90>.container1>.viaResid {
+    position: absolute;
+    top: 24.5rem;
+    left: 4.4rem;
+}
+
+.c90>.container1>.numResid {
+    position: absolute;
+    top: 24.5rem;
+    left: 32rem;
+}
+
+.c90>.container1>.comuneImm {
+    position: absolute;
+    top: 29.3rem;
+    left: 4rem;
+}
+
+.c90>.container1>.provinciaImm {
+    position: absolute;
+    top: 29.3rem;
+    left: 27.9rem;
+}
+
+.c90>.container1>.viaImm {
+    position: absolute;
+    top: 31.8rem;
+    left: 4rem;
+}
+
+.c90>.container1>.numImm {
+    position: absolute;
+    top: 31.8rem;
+    left: 25.5rem;
+}
+
+.c90>.container1>.comuneImm1 {
+    position: absolute;
+    top: 34.2rem;
+    left: 4rem;
+}
+
+.c90>.container1>.foglioImm {
+    position: absolute;
+    top: 34.2rem;
+    left: 28.5rem;
+}
+
+.c90>.container1>.partImm {
+    position: absolute;
+    top: 34.2rem;
+    left: 34.5rem;
+}
+
+.c90>.container1>.subImm {
+    position: absolute;
+    top: 34.2rem;
+    left: 40rem;
+}
+
+.c90>.container2>.comuneImm {
+    position: absolute;
+    top: 44.6rem;
+    left: 14.8rem;
+}
+
+.c90>.container2>.provinciaImm {
+    position: absolute;
+    top: 44.6rem;
+    left: 33.2rem;
+}
+
+.c90>.container2>.viaImm {
+    position: absolute;
+    top: 46rem;
+    left: 4rem;
+}
+
+.c90>.container2>.numImm {
+    position: absolute;
+    top: 46rem;
+    left: 25rem;
+}
+
+.c90>.container2>.foglioImm {
+    position: absolute;
+    top: 46rem;
+    left: 34.8rem;
+}
+
+.c90>.container2>.partImm {
+    position: absolute;
+    top: 46rem;
+    left: 39.8rem;
+}
+
+.c90>.container2>.subImm {
+    position: absolute;
+    top: 46rem;
+    left: 44.5rem;
+}
+
+.c90>.container10>.committente {
+    position: absolute;
+    top: 7.9rem;
+    left: 9.7rem;
+}
+
+.c90>.container10>.cf {
+    position: absolute;
+    top: 9rem;
+    left: 8.9rem;
+}
+
+.c90>.container10>.comuneNascita {
+    position: absolute;
+    top: 7.9rem;
+    left: 24.7rem;
+}
+
+.c90>.container10>.provinciaNascita {
+    position: absolute;
+    top: 7.9rem;
+    left: 37.5rem;
+}
+
+.c90>.container10>.dataNascita {
+    position: absolute;
+    top: 7.9rem;
+    left: 41.3rem;
+}
+
+.c90>.container10>.comuneResid {
+    position: absolute;
+    top: 9rem;
+    left: 23.3rem;
+}
+
+.c90>.container10>.provinciaResid {
+    position: absolute;
+    top: 9rem;
+    left: 42rem;
+}
+
+.c90>.container10>.capResid {
+    position: absolute;
+    top: 9rem;
+    left: 35rem;
+}
+
+.c90>.container10>.viaResid {
+    position: absolute;
+    top: 10.1rem;
+    left: 3rem;
+}
+
+.c90>.container10>.numResid {
+    position: absolute;
+    top: 10.1rem;
+    left: 20.3rem;
+}
+
+.c90>.container10>.comuneImm {
+    position: absolute;
+    top: 13.5rem;
+    left: 26.5rem;
+}
+
+.c90>.container10>.capImm {
+    position: absolute;
+    top: 13.5rem;
+    left: 38rem;
+}
+
+.c90>.container10>.provinciaImm {
+    position: absolute;
+    top: 13.5rem;
+    left: 44.4rem;
+}
+
+.c90>.container10>.viaImm {
+    position: absolute;
+    top: 14.5rem;
+    left: 4rem;
+}
+
+.c90>.container10>.numImm {
+    position: absolute;
+    top: 14.5rem;
+    left: 19.1rem;
+}
+
+.c90>.container10>.comuneImm1 {
+    position: absolute;
+    top: 21.2rem;
+    left: 32rem;
+}
+
+.c90>.container10>.provinciaImm1 {
+    position: absolute;
+    top: 21.2rem;
+    left: 42.6rem;
+}
+
+.c90>.container10>.viaImm1 {
+    position: absolute;
+    top: 22.4rem;
+    left: 6rem;
+}
+
+.c90>.container10>.numImm1 {
+    position: absolute;
+    top: 22.4rem;
+    left: 22.8rem;
+}
+
+.c90>.container10>.comuneImm2 {
+    position: absolute;
+    top: 23.4rem;
+    left: 6rem;
+}
+
+.c90>.container10>.foglioImm {
+    position: absolute;
+    top: 23.4rem;
+    left: 18rem;
+}
+
+.c90>.container10>.partImm {
+    position: absolute;
+    top: 23.4rem;
+    left: 25rem;
+}
+
+.c90>.container10>.subImm {
+    position: absolute;
+    top: 23.4rem;
+    left: 32rem;
+}
+
+.c90>.container10>.sezcat {
+    position: absolute;
+    top: 23.4rem;
+    left: 41.5rem;
+}
+
+.c90>.container10>.committente1 {
+    position: absolute;
+    top: 25.7rem;
+    left: 31rem;
+}
+
+.c90>.container10>.cf1 {
+    position: absolute;
+    top: 26.8rem;
+    left: 33.5rem;
+}
+
+.c90>.container10>.comuneNascita1 {
+    position: absolute;
+    top: 26.8rem;
+    left: 6.7rem;
+}
+
+.c90>.container10>.provinciaNascita1 {
+    position: absolute;
+    top: 26.8rem;
+    left: 18.2rem;
+}
+
+.c90>.container10>.dataNascita1 {
+    position: absolute;
+    top: 26.8rem;
+    left: 21.5rem;
+}
+
+.c90>.container9>.committente {
+    position: absolute;
+    top: 9.4rem;
+    left: 12rem;
+}
+
+.c90>.container9>.dataNascita {
+    position: absolute;
+    top: 9.4rem;
+    left: 37rem;
+}
+
+.c90>.container9>.comuneNascita {
+    position: absolute;
+    top: 11.2rem;
+    left: 5rem;
+}
+
+.c90>.container9>.provinciaNascita {
+    position: absolute;
+    top: 11.2rem;
+    left: 22.5rem;
+}
+
+.c90>.container9>.comuneResid {
+    position: absolute;
+    top: 11.2rem;
+    left: 31.5rem;
+}
+
+.c90>.container9>.provinciaResid {
+    position: absolute;
+    top: 13rem;
+    left: 6.5rem;
+}
+
+.c90>.container9>.viaResid {
+    position: absolute;
+    top: 13rem;
+    left: 11.5rem;
+}
+
+.c90>.container9>.capResid {
+    position: absolute;
+    top: 13rem;
+    left: 40rem;
+}
+
+.c90>.container9>.cf {
+    position: absolute;
+    top: 14.8rem;
+    left: 4rem;
+}
+
+.c90>.container9>.comuneImm {
+    position: absolute;
+    top: 20rem;
+    left: 31rem;
+}
+
+.c90>.container9>.provinciaImm {
+    position: absolute;
+    top: 21.5rem;
+    left: 7rem;
+}
+
+.c90>.container9>.viaImm {
+    position: absolute;
+    top: 21.5rem;
+    left: 13rem;
+}
+
+.c90>.container9>.capImm {
+    position: absolute;
+    top: 21.5rem;
+    left: 41rem;
+}
+
+.c90>.container9>.foglioImm {
+    position: absolute;
+    top: 23rem;
+    left: 12rem;
+}
+
+.c90>.container9>.partImm {
+    position: absolute;
+    top: 23rem;
+    left: 18rem;
+}
+
+.c90>.container9>.subImm {
+    position: absolute;
+    top: 23rem;
+    left: 23.5rem;
+}
+
+.c90>.container9>.committente1 {
+    position: absolute;
+    top: 35rem;
+    left: 28.5rem;
+}
+
+.c90>.container9>.comuneNascita1 {
+    position: absolute;
+    top: 36.9rem;
+    left: 4.5rem;
+}
+
+.c90>.container9>.dataNascita1 {
+    position: absolute;
+    top: 36.9rem;
+    left: 15.5rem;
+}
+
+.c90>.container9>.comuneResid1 {
+    position: absolute;
+    top: 36.9rem;
+    left: 31.5rem;
+}
+
+.c90>.container9>.viaResid1 {
+    position: absolute;
+    top: 38.6rem;
+    left: 8.5rem;
+}
+
+.c90>.container9>.comuneResid2 {
+    position: absolute;
+    top: 38.55rem;
+    left: 28.5rem;
+}
+
+.c90>.container9>.cf1 {
+    position: absolute;
+    top: 40.4rem;
+    left: 4.5rem;
+}
+
+
+/*===========================
+      ccdl
+===========================*/
+
+.ccdl>.comuneImm {
+    position: absolute;
+    top: 21.1rem;
+    left: 24rem;
+}
+
+.ccdl>.viaImm {
+    position: absolute;
+    top: 22.8rem;
+    left: 9rem;
+}
+
+.ccdl>.foglioImm {
+    position: absolute;
+    top: 24.5rem;
+    left: 14rem;
+}
+
+.ccdl>.partImm {
+    position: absolute;
+    top: 24.5rem;
+    left: 22.5rem;
+}
+
+.ccdl>.subImm {
+    position: absolute;
+    top: 24.5rem;
+    left: 31.5rem;
+}
+
+.ccdl>.committente {
+    position: absolute;
+    top: 35.3rem;
+    left: 22rem;
+}
+
+.ccdl>.comuneNascita {
+    position: absolute;
+    top: 37rem;
+    left: 8rem;
+}
+
+.ccdl>.dataNascita {
+    position: absolute;
+    top: 37rem;
+    left: 28.2rem;
+}
+
+.ccdl>.comuneResid {
+    position: absolute;
+    top: 38.8rem;
+    left: 7rem;
+}
+
+.ccdl>.viaResid {
+    position: absolute;
+    top: 38.8rem;
+    left: 24.5rem;
+}
+
+.ccdl>.numResid {
+    position: absolute;
+    top: 40.6rem;
+    left: 8.1rem;
+}
+
+.ccdl>.cf {
+    position: absolute;
+    top: 40.6rem;
+    left: 13.2rem;
+}
+
+
+/*===========================
+      cfascicolo
+===========================*/
+
+.cfascicolo>.committente {
+    position: absolute;
+    top: 6.7rem;
+    left: 29.5rem;
+}
+
+.cfascicolo>.comuneResid {
+    position: absolute;
+    top: 9.2rem;
+    left: 29.5rem;
+}
+
+.cfascicolo>.viaResid {
+    position: absolute;
+    top: 11.5rem;
+    left: 29.5rem;
+}
+
+.cfascicolo>.civico {
+    position: absolute;
+    top: 13.7rem;
+    left: 29.5rem;
+}
+
+
+/*===========================
+      cpal
+===========================*/
+
+.cpal>.committente {
+    position: absolute;
+    top: 21.3rem;
+    left: 28rem;
+}
+
+.cpal>.committente1 {
+    position: absolute;
+    top: 37.4rem;
+    left: 28.5rem;
+}
+
+.cpal>.na {
+    position: absolute;
+    top: 39.2rem;
+    left: 10rem;
+}
+
+.cpal>.dna {
+    position: absolute;
+    top: 39.2rem;
+    left: 33rem;
+}
+
+.cpal>.resid {
+    position: absolute;
+    top: 41rem;
+    left: 5rem;
+}
+
+.cpal>.via {
+    position: absolute;
+    top: 41rem;
+    left: 24rem;
+}
+
+.cpal>.cf {
+    position: absolute;
+    top: 42.8rem;
+    left: 9rem;
+}
+
+
+
+
+
+
+.crcee_br .comImm44{
+    position: absolute;
+    top: 374rem;
+    left: 485px;
+}
+.crcee_br .provImm44{
+    position: absolute;
+    top: 374rem;
+    left: 680px;
+}
+.crcee_br .viaImm44{
+    position: absolute;
+    top: 375.3rem;
+    left: 120px;
+}
+.crcee_br .nImm44{
+    position: absolute;
+    top: 375.3rem;
+    left: 395px;
+}
+.crcee_br .cognome44{
+    position: absolute;
+     top: 376.4rem;
+    left: 259px;
+}
+.crcee_br .nome44{
+    position: absolute;
+     top: 376.4rem;
+    left: 440px;
+}
+.crcee_br .cf44{
+    position: absolute;
+     top: 376.4rem;
+    left: 580px;
+}
+/*--------------------------------------------------------*/
+
+.crcee_br .nome4{
+        position: absolute;
+        top: 360px;
+        left: 80px;
+    }
+    .crcee_br .cognome4{
+    position: absolute;
+        top: 360px;
+    left: 430px;
+}
+.crcee_br .cna4{
+    position: absolute;
+    top: 410px;
+        left: 80px;
+}
+.crcee_br .pna4{
+    position: absolute;
+    top: 410px;
+    left: 430px;
+}
+.crcee_br .dna4{
+    position: absolute;
+    top: 410px;
+    left: 600px;
+}
+.crcee_br .comResid4{
+    position: absolute;
+    top: 465px;
+        left: 80px;
+}
+.crcee_br .proResid4{
+    position: absolute;
+    top: 465px;
+    left: 500px;
+}
+.crcee_br .viaResid4{
+    position: absolute;
+    top: 513px;
+    left: 80px;
+}
+.crcee_br .nResid4{
+    position: absolute;
+    top: 513px;
+    left: 600px;
+}
+.crcee_br .capResid4{
+    position: absolute;
+    top: 465px;
+    left: 630px;
+}
+.crcee_br .cf4{
+    position: absolute;
+    top: 575px;
+    left: 80px;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+.crcee_br .nome5{
+        position: absolute;
+        top: 1360px;
+        left: 80px;
+    }
+    .crcee_br .cognome5{
+        position: absolute;
+        top: 1360px;
+        left: 430px;
+    }
+    .crcee_br .cna5{
+        position: absolute;
+        top: 1418px;
+        left: 80px;
+    }
+    .crcee_br .pna5{
+        position: absolute;
+        top: 1418px;
+        left: 500px;
+    }
+    .crcee_br .dna5{
+        position: absolute;
+        top: 1418px;
+        left: 610px;
+    }
+    .crcee_br .comResid5{
+        position: absolute;
+        top: 1473px;
+        left: 80px;
+    }
+    .crcee_br .proResid5{
+        position: absolute;
+        top: 1453px;
+        left: 500px;
+    }
+    .crcee_br .viaResid5{
+        position: absolute;
+        top: 1515px;
+        left: 80px;
+    }
+    .crcee_br .nResid5{
+        position: absolute;
+        top: 1515px;
+        left: 650px;
+    }
+    .crcee_br .capResid5{
+        position: absolute;
+        top: 1453px;
+        left: 630px;
+    }
+    .crcee_br .cf5{
+        position: absolute;
+        top: 1555px;
+        left: 80px;
+    }
+    /*--------------------------------------------------------------------------------------*/
+    .crcee_br .comImm6{
+    position: absolute;
+    top: 3670px;
+    left: 500px;
+}
+.crcee_br .capImm6{
+    position: absolute;
+    top: 3690px;
+    left: 160px;
+}
+.crcee_br .viaImm6{
+    position: absolute;
+    top: 3690px;
+    left: 260px;
+}
+.crcee_br .pod6{
+    position: absolute;
+    top: 3710px;
+    left: 490px;
+}
+.crcee_br .nImm6{
+    position: absolute;
+    top: 3690px;
+    left: 520px;
+}
+.crcee_br .nome6{
+    position: absolute;
+    top: 3770px;
+    left: 105px;
+}
+.crcee_br .cognome6{
+    position: absolute;
+    top: 3770px;
+    left: 420px;
+}
+.crcee_br .cna6{
+    position: absolute;
+    top: 3815px;
+    left: 105px;
+}
+.crcee_br .pna6{
+    position: absolute;
+    top: 3815px;
+    left: 335px;
+}
+.crcee_br .dna6{
+    position: absolute;
+    top: 3815px;
+    left: 560px;
+}
+
+.crcee_br .tel6{
+    position: absolute;
+    top: 4460px;
+    left: 420px;
+}
+    /*---------------------------------------------------------------------------------*/
+    .crcee_br .committente{
+    position: absolute;
+    top: 115px;
+    left: 220px;
+}
+.crcee_br .cna{
+    position: absolute;
+    top: 162px;
+    left: 195px;
+}
+.crcee_br .pna{
+    position: absolute;
+    top: 162px;
+    left: 500px;
+}
+.crcee_br .dna{
+    position: absolute;
+    top: 162px;
+    left: 600px;
+}
+.crcee_br .comResid{
+    position: absolute;
+    top: 205px;
+    left: 230px;
+}
+.crcee_br .proResid{
+    position: absolute;
+    top: 205px;
+    left: 655px;
+}
+.crcee_br .viaResid{
+    position: absolute;
+    top: 245px;
+    left: 225px;
+}
+.crcee_br .nResid{
+    position: absolute;
+    top: 245px;
+    left: 545px;
+}
+.crcee_br .capResid{
+    position: absolute;
+    top: 245px;
+    left: 635px;
+}
+.crcee_br .cf{
+    position: absolute;
+    top: 280px;
+    left: 150px;
+}
+.crcee_br .doc{
+    position: absolute;
+    top: 318px;
+    left: 270px;
+}
+.crcee_br .ndoc{
+    position: absolute;
+    top: 308px;
+    left: 530px;
+}
+.crcee_br .ril{
+    position: absolute;
+    top: 355px;
+    left: 200px;
+}
+.crcee_br .dril{
+    position: absolute;
+    top: 355px;
+    left: 600px;
+}
+.crcee_br .comImm{
+    position: absolute;
+    top: 390px;
+    left: 535px;
+}
+.crcee_br .viaImm{
+    position: absolute;
+    top: 430px;
+    left: 145px;
+}
+.crcee_br .nImm{
+    position: absolute;
+    top: 430px;
+    left: 490px;
+}
+/*------------------------------------------------------------------------*/
+.crcee_br .comImm2{
+    position: absolute;
+    top: 81.2rem;
+    left: 485px;
+}
+.crcee_br .provImm2{
+    position: absolute;
+    top: 81.2rem;
+    left: 685px;
+}
+.crcee_br .viaImm2{
+    position: absolute;
+    top: 82.3rem;
+    left: 114px;
+}
+.crcee_br .nImm2{
+    position: absolute;
+    top: 82.3rem;
+    left: 395px;
+}
+.crcee_br .cognome2{
+    position: absolute;
+    top: 1335px;
+    left: 260px;
+}
+.crcee_br .nome2{
+    position: absolute;
+    top: 1335px;
+    left: 445px;
+}
+.crcee_br .cf2{
+    position: absolute;
+    top: 1335px;
+    left: 580px;
+}
+/*-----------------------------------------------------------------*/
+.crcee_br .comImm3{
+    position: absolute;
+    top: 303rem;
+    left: 485px;
+}
+.crcee_br .provImm3{
+    position: absolute;
+    top: 303rem;
+    left: 680px;
+}
+.crcee_br .viaImm3{
+    position: absolute;
+    top: 304rem;
+    left: 113px;
+}
+.crcee_br .nImm3{
+    position: absolute;
+    top: 304rem;
+    left: 395px;
+}
+.crcee_br .cognome3{
+    position: absolute;
+    top: 4882px;
+    left: 259px;
+}
+.crcee_br .nome3{
+    position: absolute;
+    top: 4882px;
+    left: 455px;
+}
+.crcee_br .cf3{
+    position: absolute;
+    top: 4882px;
+    left: 580px;
+}
+.crcee_br .nome7{
+    position: absolute;
+    top: 192.3rem;
+    left: 85px;
+}
+.crcee_br .cognome7{
+    position: absolute;
+    top: 192.3rem;
+    left: 450px;
+}
+.crcee_br .cna7{
+    position: absolute;
+    top: 195rem;
+    left: 85px;
+}
+.crcee_br .pna7{
+    position: absolute;
+    top: 195rem;
+    left: 450px;
+}
+.crcee_br .dna7{
+    position: absolute;
+    top: 195rem;
+    left: 40rem;
+}
+.crcee_br .cf7{
+    position: absolute;
+    top: 198rem;
+    left: 85px;
+}
+
+.crcee_br .comImm4{
+    position: absolute;
+    top: 202.8rem;
+    left: 85px;
+}
+.crcee_br .provImm4 {
+        position: absolute;
+    top: 202.8rem;
+    left: 450px;
+    }
+    .crcee_br .capImm4{
+    position: absolute;
+    top: 202.8rem;
+    left: 650px;
+}
+.crcee_br .viaImm4{
+    position: absolute;
+    top: 206rem;
+    left: 85px;
+}
+.crcee_br .nImm4{
+    position: absolute;
+    top: 206rem;
+    left: 38rem;
+}
+.crcee_br .cf8{
+    position: absolute;
+    top: 209rem;
+    left: 85px;
+}
+
+
+
+
+
+.crcee_le #comImm44{
+    position: absolute;
+    top: 374rem;
+    left: 485px;
+}
+.crcee_le #provImm44{
+    position: absolute;
+    top: 374rem;
+    left: 680px;
+}
+.crcee_le #viaImm44{
+    position: absolute;
+    top: 375.3rem;
+    left: 120px;
+}
+.crcee_le #nImm44{
+    position: absolute;
+    top: 375.3rem;
+    left: 395px;
+}
+.crcee_le #cognome44{
+    position: absolute;
+     top: 376.4rem;
+    left: 259px;
+}
+.crcee_le #nome44{
+    position: absolute;
+     top: 376.4rem;
+    left: 440px;
+}
+.crcee_le #cf44{
+    position: absolute;
+     top: 376.4rem;
+    left: 580px;
+}
+/*--------------------------------------------------------*/
+
+.crcee_le #nome4{
+        position: absolute;
+        top: 360px;
+        left: 80px;
+    }
+.crcee_le #cognome4{
+    position: absolute;
+        top: 360px;
+    left: 430px;
+}
+.crcee_le #cna4{
+    position: absolute;
+    top: 410px;
+        left: 80px;
+}
+.crcee_le #pna4{
+    position: absolute;
+    top: 410px;
+    left: 430px;
+}
+.crcee_le #dna4{
+    position: absolute;
+    top: 410px;
+    left: 600px;
+}
+.crcee_le #comResid4{
+    position: absolute;
+    top: 465px;
+        left: 80px;
+}
+.crcee_le #proResid4{
+    position: absolute;
+    top: 465px;
+    left: 500px;
+}
+.crcee_le #viaResid4{
+    position: absolute;
+    top: 513px;
+    left: 80px;
+}
+.crcee_le #nResid4{
+    position: absolute;
+    top: 513px;
+    left: 600px;
+}
+.crcee_le #capResid4{
+    position: absolute;
+    top: 465px;
+    left: 630px;
+}
+.crcee_le #cf4{
+    position: absolute;
+    top: 575px;
+    left: 80px;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+.crcee_le #nome5{
+        position: absolute;
+        top: 1360px;
+        left: 80px;
+    }
+    .crcee_le #cognome5{
+        position: absolute;
+        top: 1360px;
+        left: 430px;
+    }
+    .crcee_le #cna5{
+        position: absolute;
+        top: 1418px;
+        left: 80px;
+    }
+    .crcee_le #pna5{
+        position: absolute;
+        top: 1418px;
+        left: 500px;
+    }
+    .crcee_le #dna5{
+        position: absolute;
+        top: 1418px;
+        left: 610px;
+    }
+    .crcee_le #comResid5{
+        position: absolute;
+        top: 1473px;
+        left: 80px;
+    }
+    .crcee_le #proResid5{
+        position: absolute;
+        top: 1453px;
+        left: 500px;
+    }
+    .crcee_le #viaResid5{
+        position: absolute;
+        top: 1515px;
+        left: 80px;
+    }
+    .crcee_le #nResid5{
+        position: absolute;
+        top: 1515px;
+        left: 650px;
+    }
+    .crcee_le #capResid5{
+        position: absolute;
+        top: 1453px;
+        left: 630px;
+    }
+    .crcee_le #cf5{
+        position: absolute;
+        top: 1555px;
+        left: 80px;
+    }
+    /*--------------------------------------------------------------------------------------*/
+.crcee_le #comImm6{
+    position: absolute;
+    top: 3670px;
+    left: 500px;
+}
+.crcee_le #capImm6{
+    position: absolute;
+    top: 3690px;
+    left: 160px;
+}
+.crcee_le #viaImm6{
+    position: absolute;
+    top: 3690px;
+    left: 260px;
+}
+.crcee_le #pod6{
+    position: absolute;
+    top: 3710px;
+    left: 490px;
+}
+.crcee_le #nImm6{
+    position: absolute;
+    top: 3690px;
+    left: 520px;
+}
+.crcee_le #nome6{
+    position: absolute;
+    top: 3770px;
+    left: 105px;
+}
+.crcee_le #cognome6{
+    position: absolute;
+    top: 3770px;
+    left: 420px;
+}
+.crcee_le #cna6{
+    position: absolute;
+    top: 3815px;
+    left: 105px;
+}
+.crcee_le #pna6{
+    position: absolute;
+    top: 3815px;
+    left: 335px;
+}
+.crcee_le #dna6{
+    position: absolute;
+    top: 3815px;
+    left: 560px;
+}
+
+.crcee_le #tel6 {
+    position: absolute;
+    top: 4484px;
+    left: 420px;
+}
+    /*---------------------------------------------------------------------------------*/
+.crcee_le #committente{
+    position: absolute;
+    top: 115px;
+    left: 220px;
+}
+.crcee_le #cna{
+    position: absolute;
+    top: 162px;
+    left: 195px;
+}
+.crcee_le #pna{
+    position: absolute;
+    top: 162px;
+    left: 500px;
+}
+.crcee_le #dna{
+    position: absolute;
+    top: 162px;
+    left: 600px;
+}
+.crcee_le #comResid{
+    position: absolute;
+    top: 205px;
+    left: 230px;
+}
+.crcee_le #proResid{
+    position: absolute;
+    top: 205px;
+    left: 655px;
+}
+.crcee_le #viaResid{
+    position: absolute;
+    top: 245px;
+    left: 225px;
+}
+.crcee_le #nResid{
+    position: absolute;
+    top: 245px;
+    left: 545px;
+}
+.crcee_le #capResid{
+    position: absolute;
+    top: 245px;
+    left: 635px;
+}
+.crcee_le #cf{
+    position: absolute;
+    top: 280px;
+    left: 150px;
+}
+.crcee_le #doc{
+    position: absolute;
+    top: 318px;
+    left: 270px;
+}
+.crcee_le #ndoc{
+    position: absolute;
+    top: 308px;
+    left: 530px;
+}
+.crcee_le #ril{
+    position: absolute;
+    top: 355px;
+    left: 200px;
+}
+.crcee_le #dril{
+    position: absolute;
+    top: 355px;
+    left: 600px;
+}
+.crcee_le #comImm{
+    position: absolute;
+    top: 390px;
+    left: 535px;
+}
+.crcee_le #viaImm{
+    position: absolute;
+    top: 430px;
+    left: 145px;
+}
+.crcee_le #nImm{
+    position: absolute;
+    top: 430px;
+    left: 490px;
+}
+/*------------------------------------------------------------------------*/
+.crcee_le #comImm2{
+    position: absolute;
+    top: 81.2rem;
+    left: 485px;
+}
+.crcee_le #provImm2{
+    position: absolute;
+    top: 81.2rem;
+    left: 685px;
+}
+.crcee_le #viaImm2{
+    position: absolute;
+    top: 82.3rem;
+    left: 114px;
+}
+.crcee_le #nImm2{
+    position: absolute;
+    top: 82.3rem;
+    left: 395px;
+}
+.crcee_le #cognome2{
+    position: absolute;
+    top: 1335px;
+    left: 260px;
+}
+.crcee_le #nome2{
+    position: absolute;
+    top: 1335px;
+    left: 445px;
+}
+.crcee_le #cf2{
+    position: absolute;
+    top: 1335px;
+    left: 580px;
+}
+/*-----------------------------------------------------------------*/
+.crcee_le #comImm3{
+    position: absolute;
+    top: 303rem;
+    left: 485px;
+}
+.crcee_le #provImm3{
+    position: absolute;
+    top: 303rem;
+    left: 680px;
+}
+.crcee_le #viaImm3{
+    position: absolute;
+    top: 304rem;
+    left: 113px;
+}
+.crcee_le #nImm3{
+    position: absolute;
+    top: 304rem;
+    left: 395px;
+}
+.crcee_le #cognome3{
+    position: absolute;
+    top: 4882px;
+    left: 259px;
+}
+.crcee_le #nome3{
+    position: absolute;
+    top: 4882px;
+    left: 455px;
+}
+.crcee_le #cf3{
+    position: absolute;
+    top: 4882px;
+    left: 580px;
+}
+.crcee_le #nome7{
+    position: absolute;
+    top: 192.3rem;
+    left: 85px;
+}
+.crcee_le #cognome7{
+    position: absolute;
+    top: 192.3rem;
+    left: 450px;
+}
+.crcee_le #cna7{
+    position: absolute;
+    top: 195rem;
+    left: 85px;
+}
+.crcee_le #pna7{
+    position: absolute;
+    top: 195rem;
+    left: 450px;
+}
+.crcee_le #dna7{
+    position: absolute;
+    top: 195rem;
+    left: 40rem;
+}
+.crcee_le #cf7{
+    position: absolute;
+    top: 198rem;
+    left: 85px;
+}
+
+.crcee_le #comImm4{
+    position: absolute;
+    top: 202.8rem;
+    left: 85px;
+}
+.crcee_le #provImm4 {
+        position: absolute;
+    top: 202.8rem;
+    left: 450px;
+    }
+.crcee_le #capImm4{
+    position: absolute;
+    top: 202.8rem;
+    left: 650px;
+}
+.crcee_le #viaImm4{
+    position: absolute;
+    top: 206rem;
+    left: 85px;
+}
+.crcee_le #nImm4{
+    position: absolute;
+    top: 206rem;
+    left: 38rem;
+}
+.crcee_le #cf8{
+    position: absolute;
+    top: 209rem;
+    left: 85px;
+}
+
+
+
+
+
+
+.super #comuneImm {
+    position: absolute;
+    top: 22.6rem;
+    left: 5.9rem;
+}
+
+.super #viaImm {
+    position: absolute;
+    top: 22.6rem;
+    left: 23rem;
+}
+
+.super #foglioImm {
+    position: absolute;
+    top: 23.7rem;
+    left: 9.5rem;
+}
+
+.super #partImm {
+    position: absolute;
+    top: 23.7rem;
+    left: 19rem;
+}
+
+.super #subImm {
+    position: absolute;
+    top: 23.7rem;
+    left: 32rem;
+}
