@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharjeel's site materials</title>
+</head>
+
+<body>
+    <h1>Sharjeel's site materials</h1>
+    <table style="border: 1px solid black;" id="tableresult">
+        <tbody>
+            <th># &nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>NOME &nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>CONSEGNATO &nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>QUANTITA' &nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>STATO &nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>MONTATO &nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>AVVIO &nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>NOTE &nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>ULTIMO AGG &nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>AGGIORNATO DA &nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>ELIMINA VOCE &nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    Sharjeel
+                </td>
+                <td>
+                    YES
+                </td>
+                <td>
+                    12 pz
+                </td>
+                <td>
+                    bollettato
+                </td>
+                <td>
+                    YES
+                </td>
+                <td>
+                    YES
+                </td>
+                <td>
+                    lorem ipsum
+                </td>
+                <td>
+                    13-10-2022
+                </td>
+                <td>
+                    SALEH
+                </td>
+                <td>
+                    BIN
+                </td>
+            </tr>
+        </tbody>
+        <script>
+            // Function to check and update the table based on coordinate status
+            function checkAndUpdateTable() {
+                // Get the coordinate status from persistent storage
+                const coordinateStatus = localStorage.getItem('coordinateStatus_345');
+
+                // Log the current coordinate status to the console
+                console.log(`Current coordinate status for 345: ${coordinateStatus}`);
+
+                // Check if the coordinate status is null or undefined
+                if (coordinateStatus === null || coordinateStatus === undefined) {
+                    console.log("Error: Coordinate status not found in the list.");
+                    return;
+                }
+
+                // Check if the coordinate is in cantiere or fuori cantiere and update the table
+                if (coordinateStatus === 'In cantiere') {
+                    // Update table row for coordinate 345
+                    document.getElementById('tableresult').rows[1].style.backgroundColor = 'green';
+                    console.log("Table updated for In cantiere");
+                } else if (coordinateStatus === 'Fuori cantiere') {
+                    // Update table row for coordinate 345
+                    document.getElementById('tableresult').rows[1].style.backgroundColor = 'red';
+                    console.log("Table updated for Fuori cantiere");
+                } else {
+                    // Log a message if the status is not recognized
+                    console.log("Unknown coordinate status");
+                }
+            }
+
+            // Check and update the table when the page loads
+            window.addEventListener('load', checkAndUpdateTable);
+
+            // Check and update the table every 5 hours
+            setInterval(checkAndUpdateTable, 5000);
+
+            // Event listener for adding a new row
+            document.addEventListener('addNewRow', function(event) {
+                // Check if the event is for coordinate 345
+                if (event.detail.idcoor === 345) {
+                    // Add a new row to the table
+                    const table = document.getElementById('tableresult').getElementsByTagName('tbody')[0];
+                    const newRow = table.insertRow(table.rows.length);
+
+                    // Add data to the new row (customize as needed)
+                    const cell1 = newRow.insertCell(0);
+                    const cell2 = newRow.insertCell(1);
+                    // ... (add cells as needed)
+
+                    cell1.innerHTML = "New Data";
+                    cell2.innerHTML = "New Data";
+                    // ... (set data for other cells as needed)
+
+                    console.log("New row added to the table");
+                }
+            });
+        </script>
+    </table>
+</body>
+
+</html>
